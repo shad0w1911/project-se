@@ -6,23 +6,23 @@ export const Projects = () => (
     <div>
         <Container>
             <Row>
-                <Col style={{marginTop:"150px", marginBottom:"150px",}}>
-                    <h1>What we've been <br/>upto lately.</h1>
+                <Col style={{marginTop:"120px", marginBottom:"120px",}}>
+                    <p style={{fontSize:"50px", fontWeight:"900"}}>What we've been <br/>upto lately.</p>
                 </Col>
             </Row>
             <Row style={{marginBottom:"150px",}}>
                 <Col md lg>
-                    <h4>Sharing the experience</h4>
+                    <p style={{fontSize:"30px", fontWeight:"500"}}><span style={{color:"#fb7840"}}>Sharing</span> the experience</p>
                     <div>
-                        <p>
+                        <p style={{fontSize:"20px", fontWeight:"200"}}>
                             We think it's important to take a step back at the end of every project and show others what we've built and what we've learned.
                         </p>
                     </div>
                 </Col>
                 <Col md lg>
-                    <h4>This is our legacy</h4>
+                    <p style={{fontSize:"30px", fontWeight:"500"}}>This is our legacy</p>
                     <div>
-                        <p>
+                        <p style={{fontSize:"20px", fontWeight:"200"}}>
                             The web is such a fast moving medium that we feel it's crucial to immortalize our projects in the form of case studies.
                         </p>
                     </div>
