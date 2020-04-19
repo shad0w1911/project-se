@@ -5,7 +5,6 @@ import styled from 'styled-components';
 const styles= styled.div`
     .Navbar-brand, .Navbar-Nav .Nav-Link .Nav-Item {
         color: #fff;
-        
         &:hover {
             color:#fb7840;
         }
