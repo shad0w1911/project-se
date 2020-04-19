@@ -1,7 +1,5 @@
 import React from 'react'
 
 export const Projects = () => (
-    <div>
-        <h1> Projects</h1>
-    </div>
+    <p>Hello PROJECTS NO WHERE TO BE FOUND FUCK THIS SHITE!!!!</p>
 )
