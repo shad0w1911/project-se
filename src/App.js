@@ -18,12 +18,12 @@ function App() {
     <NavigationBar/>
       <Router>
         <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route path="/about" component={About} />
-          <Route path="/services" component={Services} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/partners" component={Partners} />
-          <Route path="/contact" component={Contact} />
+          <Route exact path="/index" component={Home}/>
+          <Route exact path="/about" component={About} />
+          <Route exact path="/services" component={Services} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/partners" component={Partners} />
+          <Route exact path="/contact" component={Contact} />
             <Route component={NoMatch} />
         </Switch>
       </Router>
