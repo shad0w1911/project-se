@@ -4,13 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import  NavigationBar  from './components/NavigationBar';
 import { Footer } from './components/Footer';
-import { Home } from './components/Home';
+import { Home } from './Home';
 import { NoMatch } from './NoMatch';
-import { Contact } from './components/Contact';
-import { About } from './components/About';
-import { Partners } from './components/Partners';
-import  { Projects }  from './components/Projects';
-import Services from './components/Services';
+import { Contact } from './Contact';
+import { About } from './About';
+import { Partners } from './Partners';
+import  { Projects }  from './Projects';
+import Services from './Services';
 
 function App() {
   return (

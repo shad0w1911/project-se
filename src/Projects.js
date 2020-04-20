@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Container } from "react-bootstrap";
-import '../App.css';
+import './App.css';
 
 export const Projects = () => (
 
@@ -73,5 +73,4 @@ export const Projects = () => (
             </Container>
             </div>
         </div>
-    
 )
