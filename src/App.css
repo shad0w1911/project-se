@@ -22,7 +22,11 @@ div {
   color: #fff;
 }
 
-#basic-navbar-nav {
+.navLink {
+  color: #fff;
+}
+
+.navLink:hover {
   color: #fb7840;
 }
 
@@ -36,7 +40,6 @@ button:hover {
 }
 
 .carouselImage {
-  width: 100%;
   height: 500px;
 }
 
@@ -104,6 +107,67 @@ button:hover {
   width: 100%;
 }
 
+#aboutFD {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+#aboutCont {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#footerFD {
+  padding-top: 100px;
+}
+
+#footerFD p {
+  margin-left: 50px;
+}
+
+#footerFD2 {
+  padding-top: 100px;
+}
+
+#footerFD2 p {
+  margin-left: 50px;
+}
+
+#footerSD {
+  padding-top: 50px;
+}
+
+#footerSD p span {
+  float: right;
+  margin-right: 50px;
+}
+
+#footerSD2 {
+  padding-top: 185px;
+}
+
+#footerSD2 p span {
+  float: right;
+  margin-right: 50px;
+}
+
+#colF p {
+  margin-left: 50px;
+}
+
+#colF p span {
+  margin-left: 30px;
+}
+
+#footerLogo {
+  transform: translate(50px, 0);
+  width: 400px;
+  height: 140px;
+  display: none;
+}
+
 @media(max-width: 500px) {
 
   #projectRow {
@@ -124,5 +188,61 @@ button:hover {
   #imgVS1 {
     height: 300px;
     width: 100%;
+  }
+
+  #aboutFD {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: justify;
+  }
+
+  #aboutCont {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  #footerFD {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #footerFD2 {
+    padding-top: 0;
+  }
+
+  #footerFD2 p {
+    margin-left: 0;
+  }
+
+  #footerSD {
+    padding-top: 10px;
+  }
+
+  #footerSD p span {
+    float: none;
+    margin-right: 25px;
+    text-align: center;
+  }
+
+  #colF Row Col p {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  #footerSD2 {
+    padding-top: 25px;
+  }
+
+  #footerSD2 p span {
+    float: none;
+    margin-right: 25px;
+    text-align: center;
+  }
+
+  #footerLogo {
+    display: none;
   }
 }

@@ -4,11 +4,11 @@ import styled from 'styled-components';
 
 const styles= styled.div`
 
-    .Navbar-brand, .Navbar-Nav .Nav-Item .Nav-Link  {
+    .navbar-brand,
+    .navbar-nav .nav-item .nav-link {
         color: #fff;
-
-        "&:hover":{
-            color:#fb7840;
+        &:hover {
+        color: #fb7840;
         }
     }
 
@@ -32,5 +32,5 @@ export const NavigationBar = () => (
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
-        </styles>
+    </styles>
 )
