@@ -18,6 +18,10 @@ div {
   color: #fb7840;
 }
 
+.toggler {
+  color: #fff;
+}
+
 #basic-navbar-nav {
   color: #fb7840;
 }
@@ -67,4 +71,58 @@ button:hover {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
   border-radius: .3rem;
+}
+
+#projectRow {
+  margin-bottom: 150px;
+}
+
+#wrapperVS1 {
+  height: 600px;
+}
+
+#projectVS1 {
+  margin-left: 100px auto;
+  display: flex;
+  justify-content: center;
+  -ms-transform: translate(0, 100px);
+  transform: translate(0, 100px);
+}
+
+#textVS1 {
+  color: #fff;
+  cursor: pointer;
+  transition: ease-in-out 1s;
+}
+
+#testVS1:hover {
+  color: #fb7840;
+}
+
+#imgVS1 {
+  height: 500px;
+  width: 100%;
+}
+
+@media(max-width: 500px) {
+
+  #projectRow {
+    margin-bottom: 50px;
+  }
+
+  #wrapperVS1 {
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  #projectVS1 {
+    margin: auto;
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  #imgVS1 {
+    height: 300px;
+    width: 100%;
+  }
 }
