@@ -92,14 +92,14 @@ button:hover {
   transform: translate(0, 100px);
 }
 
-#textVS1 {
+#projectVS1 .container #textVS1 {
   color: #fff;
-  cursor: pointer;
-  transition: ease-in-out 1s;
 }
 
-#testVS1:hover {
+#projectVS1 .container #testVS1:hover {
+  cursor: pointer;
   color: #fb7840;
+  transition-duration: 0.1s;
 }
 
 #imgVS1 {
@@ -148,9 +148,20 @@ button:hover {
   padding-top: 185px;
 }
 
-#footerSD2 p span {
-  float: right;
-  margin-right: 50px;
+#footerSD2 .row {
+  margin-right: 30px;
+}
+
+#footerSD2 p {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#footerSD2 p:hover {
+  cursor: pointer;
+  color: #fb7840;
+  transition-duration: 0.2s;
 }
 
 #colF p {
@@ -233,13 +244,11 @@ button:hover {
   }
 
   #footerSD2 {
-    padding-top: 25px;
+    padding-top: 0px;
   }
 
-  #footerSD2 p span {
-    float: none;
-    margin-right: 25px;
-    text-align: center;
+  #footerSD2 .row {
+    margin-right: 0px;
   }
 
   #footerLogo {

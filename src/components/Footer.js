@@ -2,9 +2,10 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 import { Row, Col, Container } from 'react-bootstrap';
-import logo from '../assets/SE-logo.png' 
+import logo from '../assets/SE-logo.png';
 
 export const Footer = () => (
+
     <div style={{marginTop:'1em', width:'100%'}}>
         <Container fluid>
         <Row>
@@ -34,7 +35,12 @@ export const Footer = () => (
                         <img src={logo} alt="logo" id="footerLogo"/>
                     </div>
                     <div id="footerSD2">
-                        <p style={{fontSize:"20px", fontWeight:"300"}}><span>About</span><span>Projects</span><span>Partners</span><span>Contact</span></p>
+                        <Row>
+                            <Col md lg><p>Home</p></Col>
+                            <Col md lg><p>Services</p></Col>
+                            <Col md lg><p>Projects</p></Col>
+                            <Col md lg><p>Contact</p></Col>
+                        </Row>
                     </div>
                 </div>
             </Col>
