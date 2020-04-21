@@ -16,7 +16,7 @@ function App() {
   return (
     <React.Fragment>
     <NavigationBar/>
-      <Router>
+      <Router basename="/project-se">
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/About" component={About} />
