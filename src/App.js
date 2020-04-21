@@ -19,11 +19,11 @@ function App() {
       <Router basename="/project-se">
         <Switch>
           <Link exact path="/" component={Home}/>
-          <Link path="/About" component={About} />
-          <Link path="/Services" component={Services} />
-          <Link path="/Projects" component={Projects} />
-          <Link path="/Partners" component={Partners} />
-          <Link path="/Contact" component={Contact} />
+          <Link path="/project-se/About" component={About} />
+          <Link path="/project-se/Services" component={Services} />
+          <Link path="/project-se/Projects" component={Projects} />
+          <Link path="/project-se/Partners" component={Partners} />
+          <Link path="/project-se/Contact" component={Contact} />
           <Link component={NoMatch} />
         </Switch>
       </Router>
