@@ -24,7 +24,7 @@ export const Home = () => ( <
     >
     <
     /div> <
-    Carousel.Caption className = "transparentBg SEorange" >
+    Carousel.Caption className = "transparentBg" >
     <
     h3 > First slide label < /h3> <
     p className = " SEorange" > Nulla vitae elit libero, a pharetra augue mollis interdum. < /p> <
@@ -41,7 +41,7 @@ export const Home = () => ( <
     >
     <
     /div> <
-    Carousel.Caption className = "transparentBg SEorange" >
+    Carousel.Caption className = "transparentBg" >
     <
     h3 > Second slide label < /h3> <
     p className = " SEorange" > Lorem ipsum dolor sit amet, consectetur adipiscing elit. < /p> <
