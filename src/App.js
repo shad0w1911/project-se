@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Link, Switch} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import  NavigationBar  from './components/NavigationBar';
 import { Footer } from './components/Footer';
 import { Home } from './Home';
@@ -18,13 +18,13 @@ function App() {
     <NavigationBar/>
       <Router basename="/project-se">
         <Switch>
-          <Link exact path="/" component={Home}/>
-          <Link path="/project-se/About" component={About} />
-          <Link path="/project-se/Services" component={Services} />
-          <Link path="/project-se/Projects" component={Projects} />
-          <Link path="/project-se/Partners" component={Partners} />
-          <Link path="/project-se/Contact" component={Contact} />
-          <Link component={NoMatch} />
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/About" component={About} />
+          <Route exact path="/Services" component={Services} />
+          <Route exact path="/Projects" component={Projects} />
+          <Route exact path="/Partners" component={Partners} />
+          <Route exact path="/Contact" component={Contact} />
+          <Route component={NoMatch} />
         </Switch>
       </Router>
       <Footer />
