@@ -19,11 +19,11 @@ function App() {
       <Router basename="/project-se">
         <Switch>
           <Route exact path="/" component={Home}/>
-          <Route exact path="/About" component={About} />
-          <Route exact path="/Services" component={Services} />
-          <Route exact path="/Projects" component={Projects} />
-          <Route exact path="/Partners" component={Partners} />
-          <Route exact path="/Contact" component={Contact} />
+          <Route path="/About" component={About} />
+          <Route path="/Services" component={Services} />
+          <Route path="/Projects" component={Projects} />
+          <Route path="/Partners" component={Partners} />
+          <Route path="/Contact" component={Contact} />
           <Route component={NoMatch} />
         </Switch>
       </Router>
