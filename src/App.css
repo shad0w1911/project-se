@@ -158,6 +158,8 @@ button:hover {
   text-align: center;
 }
 
+
+
 #footerSD2 p:hover {
   cursor: pointer;
   color: #fb7840;
@@ -177,6 +179,21 @@ button:hover {
   width: 400px;
   height: 140px;
   display: none;
+}
+
+.footerNavLink {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footerNavLink:hover {
+  cursor: pointer;
+  color: #fb7840;
+  transition-duration: 0.2s;
 }
 
 @media(max-width: 500px) {

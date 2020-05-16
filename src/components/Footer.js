@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 import { Row, Col, Container } from 'react-bootstrap';
 import logo from '../assets/SE-logo.png';
+import { Nav, Navbar } from 'react-bootstrap';
 
 export const Footer = () => (
 
@@ -36,10 +37,13 @@ export const Footer = () => (
                     </div>
                     <div id="footerSD2">
                         <Row>
-                            <Col md lg><p>Home</p></Col>
-                            <Col md lg><p>Services</p></Col>
-                            <Col md lg><p>Projects</p></Col>
-                            <Col md lg><p>Contact</p></Col>
+                            <Nav id="footerNav" className="ml-auto">
+                                <Col md lg><Nav.Item><Nav.Link href="https://shad0w1911.github.io/project-se/#/" className="footerNavLink">Home</Nav.Link></Nav.Item></Col>
+                                <Col md lg><Nav.Item><Nav.Link href="https://shad0w1911.github.io/project-se/#/About" className="footerNavLink">About</Nav.Link></Nav.Item></Col>
+                                <Col md lg><Nav.Item><Nav.Link href="https://shad0w1911.github.io/project-se/#/Services" className="footerNavLink">Services</Nav.Link></Nav.Item></Col>
+                                <Col md lg><Nav.Item><Nav.Link href="https://shad0w1911.github.io/project-se/#/Partners" className="footerNavLink">Partners</Nav.Link></Nav.Item></Col>
+                                <Col md lg><Nav.Item><Nav.Link href="https://shad0w1911.github.io/project-se/#/Contact" className="footerNavLink">Contact</Nav.Link></Nav.Item></Col>
+                            </Nav>
                         </Row>
                     </div>
                 </div>
