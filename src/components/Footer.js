@@ -39,7 +39,6 @@ export const Footer = () => (
                         <Row>
                             <Nav id="footerNav" className="ml-auto">
                                 <Col md lg><Nav.Item><Nav.Link href="https://shad0w1911.github.io/project-se/#/" className="footerNavLink">Home</Nav.Link></Nav.Item></Col>
-                                <Col md lg><Nav.Item><Nav.Link href="https://shad0w1911.github.io/project-se/#/About" className="footerNavLink">About</Nav.Link></Nav.Item></Col>
                                 <Col md lg><Nav.Item><Nav.Link href="https://shad0w1911.github.io/project-se/#/Services" className="footerNavLink">Services</Nav.Link></Nav.Item></Col>
                                 <Col md lg><Nav.Item><Nav.Link href="https://shad0w1911.github.io/project-se/#/Partners" className="footerNavLink">Partners</Nav.Link></Nav.Item></Col>
                                 <Col md lg><Nav.Item><Nav.Link href="https://shad0w1911.github.io/project-se/#/Contact" className="footerNavLink">Contact</Nav.Link></Nav.Item></Col>
