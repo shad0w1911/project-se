@@ -158,8 +158,6 @@ button:hover {
   text-align: center;
 }
 
-
-
 #footerSD2 p:hover {
   cursor: pointer;
   color: #fb7840;
@@ -197,27 +195,22 @@ button:hover {
 }
 
 @media(max-width: 500px) {
-
   #projectRow {
     margin-bottom: 50px;
   }
-
   #wrapperVS1 {
     height: auto;
     margin-bottom: 50px;
   }
-
   #projectVS1 {
     margin: auto;
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
   }
-
   #imgVS1 {
     height: 300px;
     width: 100%;
   }
-
   #aboutFD {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -225,49 +218,39 @@ button:hover {
     padding-bottom: 50px;
     text-align: justify;
   }
-
   #aboutCont {
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
   }
-
   #footerFD {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-
   #footerFD2 {
     padding-top: 0;
   }
-
   #footerFD2 p {
     margin-left: 0;
   }
-
   #footerSD {
     padding-top: 10px;
   }
-
   #footerSD p span {
     float: none;
     margin-right: 25px;
     text-align: center;
   }
-
   #colF Row Col p {
     margin-left: 0;
     text-align: center;
   }
-
   #footerSD2 {
     padding-top: 0px;
   }
-
   #footerSD2 .row {
     margin-right: 0px;
   }
-
   #footerLogo {
     display: none;
   }
