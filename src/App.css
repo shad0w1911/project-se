@@ -193,6 +193,12 @@ button:hover {
   color: #fb7840;
   transition-duration: 0.2s;
 }
+#servicesP p {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 180px;
+}
 
 @media(max-width: 500px) {
   #projectRow {

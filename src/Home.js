@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { Row, Col, Container } from "react-bootstrap";
+import image1 from './assets/DHA-City-Karachi-Main-Gate.jpg';
 
 export const Home = () => (
     <div>
@@ -43,12 +44,12 @@ export const Home = () => (
                 <div id = "aboutFD">
                     <Row >
                         <Col lg md>
-                            <h1 style={{textAlign: "center"}}>Nine dedicated developers that strive for <span style={{color: "#fb7840"}}>perfection</span>.</h1>
+                            <h1 style={{textAlign: "center"}}>Sarwar Enterprises is a team of experts that strive for <span style={{color: "#fb7840"}}>perfection</span>.</h1>
                         </Col>
                         <Col lg md>
-                        <p style={{textAlign: "center", fontWeight: "100px"}}>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry 's standard dummy text ever since the 1500s.
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry 's standard dummy text ever since the 1500s.
+                        <p style={{textAlign: "center", fontWeight: "100"}}>
+                            Sarwar Enterprises has a very efficient & professional setup with dedicated units of demolition, civil & plumbing works, wooden & metal works, electrical, lain & A/Cs works,
+                            aluminium, fire-fighting, medical-gases glass and all other related general works.
                         </p>
                         </Col>
                     </Row>
@@ -62,7 +63,8 @@ export const Home = () => (
                             </Col>
                             <Col lg md>
                                 <p style={{fontSize: "20px", fontWeight: "300"}}>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry 's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    With a vast range of facilities, from the developments of basic concept to the high quality fabrication & construction work, electrical mechanical and plumbing, fire-fighting, medical-gases work.
+                                    This firm is posied to fulfill any project all over the Pakistan.
                                 </p>
                             </Col>
                         </Row>
