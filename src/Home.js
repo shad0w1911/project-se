@@ -9,7 +9,7 @@ export const Home = () => (
             <Carousel autoPlay>
                 <Carousel.Item>
                     <div className="img-gradient" >
-                        <img className="d-block w-100 carouselImage" alt="First slide" width="100%" src="https://c.tribune.com.pk/2019/09/2068476-DevelopmentprojectPHOTOMOHAMMADNOMANEXPRESS-1569816429.jpg"/>
+                        <img className="d-block w-100 carouselImage" alt="First slide" width="100%" src="https://www.zameen.com/blog/wp-content/uploads/2019/10/cover-image-1.jpg"/>
                     </div>
                     <Carousel.Caption className = "transparentBg">
                         <h3>First slide label</h3>
