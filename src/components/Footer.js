@@ -8,7 +8,7 @@ import pdf from '../assets/SarwarEnterprisesReport.pdf'
 
 export const Footer = () => (
 
-    <div style={{marginTop:'1em', width:'100%'}}>
+    <div>
         <Container fluid>
         <Row>
             <Col md lg>
