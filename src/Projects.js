@@ -1,7 +1,6 @@
 import React from 'react';
 import { Row, Col, Container } from "react-bootstrap";
 import './App.css';
-import './Projects.css';
 
 export const Projects = () => (
 
@@ -38,13 +37,14 @@ export const Projects = () => (
                     <Col lg md>
                         <div className="card">
                             <div className="image">
-                                <img src="https://cdn.pixabay.com/photo/2020/05/26/15/42/eagle-5223559_960_720.jpg"/>
+                                <img src="https://iqraengineers.com/wp-content/uploads/2017/01/NED-University-of-Engineering-and-Technology.jpg"/>
                             </div>
                             <div className="details">
                                 <div className="center">
-                                    <h1>Lorem Ipsum</h1>
-                                    <p>loremmipsum adad lorem ipsum adasd</p>
-                                    <ul>
+                                    <h1>NED University of engineering & technology</h1>
+                                    <br/>
+                                    <p>Services we perfromed at NED University of Engineering & Technology includes provision and installation of IT items and wooden furniture</p>
+                                    {/*<ul>
                                     <li><a href="#">
                                         <i class="fa fa-github" aria-hidden="true"></i>
                                     </a></li>
@@ -60,7 +60,7 @@ export const Projects = () => (
                                     <li><a href="">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
                                     </a></li>
-                                    </ul>
+                                    </ul>*/}
                                 </div>
                             </div>
                         </div>
@@ -69,13 +69,18 @@ export const Projects = () => (
                     <Col lg md>
                         <div className="card">
                             <div className="image">
-                                <img src="https://cdn.pixabay.com/photo/2020/05/28/19/01/daisies-5232284_960_720.jpg"/>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
                             </div>
                             <div className="details">
                                 <div className="center">
-                                    <h1>Lorem Ipsum</h1>
-                                    <p>loremmipsum adad lorem ipsum adasd</p>
-                                    <ul>
+                                    <h1>National Stadium Karachi</h1>
+                                    <p style={{textAlign:"center"}}>Our Services</p>
+                                    <div>
+                                    <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
+                                    <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
+                                    <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
+                                    </div>
+                                    {/*<ul>
                                     <li><a href="#">
                                         <i class="fa fa-github" aria-hidden="true"></i>
                                     </a></li>
@@ -91,7 +96,7 @@ export const Projects = () => (
                                     <li><a href="">
                                         <i class="fa fa-facebook" aria-hidden="true"></i>
                                     </a></li>
-                                    </ul>
+                                    </ul>*/}
                                 </div>
                             </div>
                         </div>
@@ -100,7 +105,7 @@ export const Projects = () => (
                     <Col lg md>
                         <div className="card">
                             <div className="image">
-                                <img src="https://cdn.pixabay.com/photo/2020/06/01/08/46/water-5245722_960_720.jpg"/>
+                                <img src="https://img.dunyanews.tv/news/2019/January/01-21-19/news_big_images/475264_80762715.jpg"/>
                             </div>
                             <div className="details">
                                 <div className="center">

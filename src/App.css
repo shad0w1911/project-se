@@ -193,6 +193,7 @@ button:hover {
   color: #fb7840;
   transition-duration: 0.2s;
 }
+
 #servicesP p {
   font-size: 20px;
   font-weight: 400;
@@ -208,23 +209,129 @@ button:hover {
   margin-right: 80px;
 }
 
+/* Project CSS */
+
+.card {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background-color: #000;
+}
+
+.card .image {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.card .image img {
+  width: 100%;
+  height: 100%;
+  transition: .5s;
+}
+
+.card:hover .image img {
+  opacity: .5;
+  transform: translateX(30%);
+}
+
+.card .details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  background: #fb7820;
+  transition: .5s;
+  transform-origin: left;
+  transform: perspective(2000px) rotateY(-90deg);
+}
+
+.card:hover .details {
+  transform: perspective(2000px) rotateY(0deg);
+}
+
+.card .details .center {
+  padding: 20px;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card .details .center h1 {
+  margin: 0;
+  padding: 0;
+  color: #fb7820;
+  line-height: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card .details .center h1 span {
+  font-size: 12px;
+  color: #fff;
+}
+
+.card .detail .center p {
+  margin: 10px 0;
+  padding: 0;
+  color: #fff;
+  font-size: 8px;
+}
+
+.card .details .center ul {
+  margin: 10px auto 0;
+  padding: 0;
+  display: table;
+}
+
+.card .details .center ul li {
+  list-style: none;
+  margin: 0 3px;
+  float: left;
+}
+
+.card .details .center ul li a {
+  display: block;
+  background: #fff;
+  color: #262626;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  transition: .5s;
+}
+
+.card .details .center ul li a:hover {
+  background-color: #4cd3c2;
+}
+
+/* */
+
 @media(max-width: 500px) {
   #projectRow {
     margin-bottom: 50px;
   }
+
   #wrapperVS1 {
     height: auto;
     margin-bottom: 50px;
   }
+
   #projectVS1 {
     margin: auto;
     -ms-transform: translate(0, 0);
     transform: translate(0, 0);
   }
+
   #imgVS1 {
     height: 300px;
     width: 100%;
   }
+
   #aboutFD {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -232,39 +339,49 @@ button:hover {
     padding-bottom: 50px;
     text-align: justify;
   }
+
   #aboutCont {
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
   }
+
   #footerFD {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
   #footerFD2 {
     padding-top: 0;
   }
+
   #footerFD2 p {
     margin-left: 0;
   }
+
   #footerSD {
     padding-top: 10px;
   }
+
   #footerSD p span {
     float: none;
     margin-right: 25px;
     text-align: center;
   }
+
   #colF Row Col p {
     margin-left: 0;
     text-align: center;
   }
+
   #footerSD2 {
     padding-top: 0px;
   }
+
   #footerSD2 .row {
     margin-right: 0px;
   }
+
   #footerLogo {
     display: none;
   }
