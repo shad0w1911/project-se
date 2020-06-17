@@ -44,23 +44,6 @@ export const Projects = () => (
                                     <h1>NED University of engineering & technology</h1>
                                     <br/>
                                     <p>Services we perfromed at NED University of Engineering & Technology includes provision and installation of IT items and wooden furniture</p>
-                                    {/*<ul>
-                                    <li><a href="#">
-                                        <i class="fa fa-github" aria-hidden="true"></i>
-                                    </a></li>
-                                    <li><a href="">
-                                        <i class="fa fa-google-plus" aria-hidden="true"></i>
-                                    </a></li>
-                                    <li><a href="#">
-                                        <i class="fa fa-github" aria-hidden="true"></i>
-                                    </a></li>
-                                    <li><a href="">
-                                        <i class="fa fa-google-plus" aria-hidden="true"></i>
-                                    </a></li>
-                                    <li><a href="">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                                    </a></li>
-                                    </ul>*/}
                                 </div>
                             </div>
                         </div>
@@ -80,23 +63,6 @@ export const Projects = () => (
                                     <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
                                     <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
                                     </div>
-                                    {/*<ul>
-                                    <li><a href="#">
-                                        <i class="fa fa-github" aria-hidden="true"></i>
-                                    </a></li>
-                                    <li><a href="">
-                                        <i class="fa fa-google-plus" aria-hidden="true"></i>
-                                    </a></li>
-                                    <li><a href="#">
-                                        <i class="fa fa-github" aria-hidden="true"></i>
-                                    </a></li>
-                                    <li><a href="">
-                                        <i class="fa fa-google-plus" aria-hidden="true"></i>
-                                    </a></li>
-                                    <li><a href="">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                                    </a></li>
-                                    </ul>*/}
                                 </div>
                             </div>
                         </div>
