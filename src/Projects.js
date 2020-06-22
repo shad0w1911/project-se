@@ -41,7 +41,7 @@ export const Projects = () => (
                         <Col lg md>
                         <div className="card">
                                 <div className="image">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
+                                    <img alt="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
                                 </div>
                                 <div className="details">
                                     <div className="center">
@@ -60,7 +60,7 @@ export const Projects = () => (
                         <Col lg md>
                             <div className="card">
                                 <div className="image">
-                                    <img src="https://c.tribune.com.pk/2015/08/933627-BHP-1438926530.jpg"/>
+                                    <img alt="image" src="https://c.tribune.com.pk/2015/08/933627-BHP-1438926530.jpg"/>
                                 </div>
                                 <div className="details">
                                     <div className="center">
@@ -79,7 +79,7 @@ export const Projects = () => (
                         <Col lg md>
                             <div className="card">
                                 <div className="image">
-                                    <img src="https://karachihighlightshome.files.wordpress.com/2019/01/lucky-one.jpg?w=740"/>
+                                    <img alt="image" src="https://karachihighlightshome.files.wordpress.com/2019/01/lucky-one.jpg?w=740"/>
                                 </div>
                                 <div className="details">
                                     <div className="center">
@@ -102,7 +102,7 @@ export const Projects = () => (
                         <Col lg md>
                         <div className="card">
                                 <div className="image">
-                                    <img src="https://2.bp.blogspot.com/_895q5RhHB70/TVKqKwHOwRI/AAAAAAAAAOU/eoqDA6OkavU/s1600/PNS+Khalid+%2528S137%2529++Pakistan+Navy++%2528Agosta+90B%2529.jpg"/>
+                                    <img alt="image" src="https://2.bp.blogspot.com/_895q5RhHB70/TVKqKwHOwRI/AAAAAAAAAOU/eoqDA6OkavU/s1600/PNS+Khalid+%2528S137%2529++Pakistan+Navy++%2528Agosta+90B%2529.jpg"/>
                                 </div>
                                 <div className="details">
                                     <div className="center">
@@ -120,7 +120,7 @@ export const Projects = () => (
                         <Col lg md>
                             <div className="card">
                                 <div className="image">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
+                                    <img alt="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
                                 </div>
                                 <div className="details">
                                     <div className="center">
@@ -139,7 +139,7 @@ export const Projects = () => (
                         <Col lg md>
                             <div className="card">
                                 <div className="image">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
+                                    <img alt="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
                                 </div>
                                 <div className="details">
                                     <div className="center">
