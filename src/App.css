@@ -1,388 +1,377 @@
 .App {
-  text-align: center;
-  background-color: #000;
-  color: #fff;
-  scroll-behavior: smooth;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    scroll-behavior: smooth;
 }
 
 div {
-  background-color: #000;
-  color: #fff;
+    background-color: #000;
+    color: #fff;
 }
 
 .transparentBg {
-  background-color: rgba(255, 0, 0, 0);
+    background-color: rgba(255, 0, 0, 0);
 }
 
 .SEorange {
-  color: #fb7840;
+    color: #fb7820;
 }
 
 .toggler {
-  color: #fff;
+    color: #fff;
 }
 
 .navLink {
-  color: #fff;
+    color: #fff;
 }
 
 .navLink:hover {
-  color: #fb7840;
+    color: #fb7820;
 }
 
 button {
-  color: #000;
+    color: #000;
 }
 
 button:hover {
-  color: #ed1212;
-  cursor: pointer;
+    color: #ed1212;
+    cursor: pointer;
 }
 
 .carouselImage {
-  height: 500px;
+    height: 500px;
 }
 
 .img-gradient {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .img-gradient:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-  background: rgb(0, 0, 0);
-  background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
-  background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
+    background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
 }
 
 .img-gradient img {
-  display: block;
+    display: block;
 }
 
 .img-gradient-overlay {
-  background: rgb(0, 0, 0);
-  background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
-  background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
-  border-radius: .3rem;
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
+    background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
+    border-radius: .3rem;
 }
 
 #projectRow {
-  margin-bottom: 150px;
+    margin-bottom: 150px;
 }
 
 #wrapperVS1 {
-  height: 600px;
+    height: 600px;
 }
 
 #projectVS1 {
-  margin-left: 100px auto;
-  display: flex;
-  justify-content: center;
-  -ms-transform: translate(0, 100px);
-  transform: translate(0, 100px);
+    margin-left: 100px auto;
+    display: flex;
+    justify-content: center;
+    -ms-transform: translate(0, 100px);
+    transform: translate(0, 100px);
 }
 
 #projectVS1 .container #textVS1 {
-  color: #fff;
+    color: #fff;
 }
 
 #projectVS1 .container #testVS1:hover {
-  cursor: pointer;
-  color: #fb7840;
-  transition-duration: 0.1s;
+    cursor: pointer;
+    color: #fb7820;
+    transition-duration: 0.1s;
 }
 
 #imgVS1 {
-  height: 500px;
-  width: 100%;
+    height: 500px;
+    width: 100%;
 }
 
 #aboutFD {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding-top: 150px;
-  padding-bottom: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 #aboutCont {
-  margin-top: 100px;
-  margin-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #footerFD {
-  padding-top: 100px;
+    padding-top: 100px;
 }
 
 #footerFD p {
-  margin-left: 50px;
+    margin-left: 50px;
 }
 
 #footerFD2 {
-  padding-top: 100px;
+    padding-top: 100px;
 }
 
 #footerFD2 p {
-  margin-left: 50px;
+    margin-left: 50px;
 }
 
 #footerSD {
-  padding-top: 50px;
+    padding-top: 50px;
 }
 
 #footerSD p span {
-  float: right;
-  margin-right: 50px;
+    float: right;
+    margin-right: 50px;
 }
 
 #footerSD2 {
-  padding-top: 185px;
+    padding-top: 185px;
 }
 
 #footerSD2 .row {
-  margin-right: 30px;
+    margin-right: 30px;
 }
 
 #footerSD2 p {
-  font-size: 20px;
-  font-weight: 300;
-  text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
 }
 
 #footerSD2 p:hover {
-  cursor: pointer;
-  color: #fb7840;
-  transition-duration: 0.2s;
+    cursor: pointer;
+    color: #fb7820;
+    transition-duration: 0.2s;
 }
 
 #colF p {
-  margin-left: 50px;
+    margin-left: 50px;
 }
 
 #colF p span {
-  margin-left: 30px;
+    margin-left: 30px;
 }
 
 #footerLogo {
-  transform: translate(50px, 0);
-  width: 400px;
-  height: 140px;
-  display: none;
+    transform: translate(50px, 0);
+    width: 400px;
+    height: 140px;
+    display: none;
 }
 
 .footerNavLink {
-  font-size: 20px;
-  font-weight: 300;
-  text-align: center;
-  color: #fff;
-  list-style: none;
-  text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
 }
 
 .footerNavLink:hover {
-  cursor: pointer;
-  color: #fb7840;
-  transition-duration: 0.2s;
+    cursor: pointer;
+    color: #fb7820;
+    transition-duration: 0.2s;
 }
 
 #servicesP p {
-  font-size: 20px;
-  font-weight: 400;
-  text-align: left;
-  margin-left: 180px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 180px;
 }
 
 #servicesP2 p {
-  font-size: 20px;
-  font-weight: 400;
-  text-align: left;
-  text-align: justify;
-  margin-right: 80px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-align: justify;
+    margin-right: 80px;
 }
+
 
 /* Project CSS */
 
 .card {
-  position: absolute;
-  width: 350px;
-  height: 350px;
-  background-color: #000;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-color: #000;
 }
 
 .card .image {
-  width: 350px;
-  height: 350px;
-  overflow: hidden;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
 }
 
 .card .image img {
-  width: 100%;
-  height: 100%;
-  transition: .5s;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
 }
 
 .card:hover .image img {
-  opacity: .5;
-  transform: translateX(30%);
+    opacity: .5;
+    transform: translateX(30%);
 }
 
 .card .details {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 70%;
-  height: 100%;
-  background: #fb7820;
-  transition: .5s;
-  transform-origin: left;
-  transform: perspective(2000px) rotateY(-90deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background: #fb7820;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
 }
 
 .card:hover .details {
-  transform: perspective(2000px) rotateY(0deg);
+    transform: perspective(2000px) rotateY(0deg);
 }
 
 .card .details .center {
-  padding: 20px;
-  background-color: #000;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+    padding: 20px;
+    background-color: #000;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .card .details .center h1 {
-  margin: 0;
-  padding: 0;
-  color: #fb7820;
-  line-height: 20px;
-  font-size: 20px;
-  text-transform: uppercase;
-  text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #fb7820;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .card .details .center h1 span {
-  font-size: 12px;
-  color: #fff;
+    font-size: 12px;
+    color: #fff;
 }
 
 .card .detail .center p {
-  margin: 10px 0;
-  padding: 0;
-  color: #fff;
-  font-size: 8px;
+    margin: 10px 0;
+    padding: 0;
+    color: #fff;
+    font-size: 8px;
 }
 
 .card .details .center ul {
-  margin: 10px auto 0;
-  padding: 0;
-  display: table;
+    margin: 10px auto 0;
+    padding: 0;
+    display: table;
 }
 
 .card .details .center ul li {
-  list-style: none;
-  margin: 0 3px;
-  float: left;
+    list-style: none;
+    margin: 0 3px;
+    float: left;
 }
 
 .card .details .center ul li a {
-  display: block;
-  background: #fff;
-  color: #262626;
-  border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
-  text-align: center;
-  transition: .5s;
+    display: block;
+    background: #fff;
+    color: #262626;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    transition: .5s;
 }
 
 .card .details .center ul li a:hover {
-  background-color: #4cd3c2;
+    background-color: #4cd3c2;
 }
+
 
 /* */
 
 @media(max-width: 500px) {
-  #projectRow {
-    margin-bottom: 50px;
-  }
-
-  #wrapperVS1 {
-    height: auto;
-    margin-bottom: 50px;
-  }
-
-  #projectVS1 {
-    margin: auto;
-    -ms-transform: translate(0, 0);
-    transform: translate(0, 0);
-  }
-
-  #imgVS1 {
-    height: 300px;
-    width: 100%;
-  }
-
-  #aboutFD {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: justify;
-  }
-
-  #aboutCont {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-  }
-
-  #footerFD {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  #footerFD2 {
-    padding-top: 0;
-  }
-
-  #footerFD2 p {
-    margin-left: 0;
-  }
-
-  #footerSD {
-    padding-top: 10px;
-  }
-
-  #footerSD p span {
-    float: none;
-    margin-right: 25px;
-    text-align: center;
-  }
-
-  #colF Row Col p {
-    margin-left: 0;
-    text-align: center;
-  }
-
-  #footerSD2 {
-    padding-top: 0px;
-  }
-
-  #footerSD2 .row {
-    margin-right: 0px;
-  }
-
-  #footerLogo {
-    display: none;
-  }
+    #projectRow {
+        margin-bottom: 50px;
+    }
+    #wrapperVS1 {
+        height: auto;
+        margin-bottom: 50px;
+    }
+    #projectVS1 {
+        margin: auto;
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    #imgVS1 {
+        height: 300px;
+        width: 100%;
+    }
+    #aboutFD {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: justify;
+    }
+    #aboutCont {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    #footerFD {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #footerFD2 {
+        padding-top: 0;
+    }
+    #footerFD2 p {
+        margin-left: 0;
+    }
+    #footerSD {
+        padding-top: 10px;
+    }
+    #footerSD p span {
+        float: none;
+        margin-right: 25px;
+        text-align: center;
+    }
+    #colF Row Col p {
+        margin-left: 0;
+        text-align: center;
+    }
+    #footerSD2 {
+        padding-top: 0px;
+    }
+    #footerSD2 .row {
+        margin-right: 0px;
+    }
+    #footerLogo {
+        display: none;
+    }
 }

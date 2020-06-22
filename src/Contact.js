@@ -5,8 +5,10 @@ import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faMapSigns, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import './contact.css';
+import { Footer } from './components/Footer';
 
 export const Contact = () => (
+    <React.Fragment>
     <div className="row" id="mainHolder">
         <div className="col-lg" id="contactIMG">
             <div>
@@ -64,4 +66,6 @@ export const Contact = () => (
             </div>
         </div>
     </div>
+    <Footer />
+    </React.Fragment>
 )

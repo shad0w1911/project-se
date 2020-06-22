@@ -3,7 +3,6 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { HashRouter as Router, Switch, Route} from 'react-router-dom';
 import  NavigationBar  from './components/NavigationBar';
-import { Footer } from './components/Footer';
 import { Home } from './Home';
 import { NoMatch } from './NoMatch';
 import { Contact } from './Contact';
@@ -27,7 +26,6 @@ function App() {
           <Route component={NoMatch} />
         </Switch>
       </Router>
-      <Footer />
     </React.Fragment>
   );
 }
