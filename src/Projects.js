@@ -41,7 +41,7 @@ export const Projects = () => (
                         <Col lg md>
                         <div className="card">
                                 <div className="image">
-                                    <img alt="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
+                                    <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
                                 </div>
                                 <div className="details">
                                     <div className="center">
@@ -60,7 +60,7 @@ export const Projects = () => (
                         <Col lg md>
                             <div className="card">
                                 <div className="image">
-                                    <img alt="image" src="https://c.tribune.com.pk/2015/08/933627-BHP-1438926530.jpg"/>
+                                    <img alt="bhp" src="https://c.tribune.com.pk/2015/08/933627-BHP-1438926530.jpg"/>
                                 </div>
                                 <div className="details">
                                     <div className="center">
@@ -79,14 +79,14 @@ export const Projects = () => (
                         <Col lg md>
                             <div className="card">
                                 <div className="image">
-                                    <img alt="image" src="https://karachihighlightshome.files.wordpress.com/2019/01/lucky-one.jpg?w=740"/>
+                                    <img alt="luckyOne" src="https://karachihighlightshome.files.wordpress.com/2019/01/lucky-one.jpg?w=740"/>
                                 </div>
                                 <div className="details">
                                     <div className="center">
                                         <h1>Lucky One Karachi</h1>
                                         <p style={{textAlign:"center"}}>Our Services</p>
                                         <div>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Conduets</p>
+                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Conduits</p>
                                         <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Speaker Wiring</p>
                                         </div>
                                     </div>
@@ -102,7 +102,7 @@ export const Projects = () => (
                         <Col lg md>
                         <div className="card">
                                 <div className="image">
-                                    <img alt="image" src="https://2.bp.blogspot.com/_895q5RhHB70/TVKqKwHOwRI/AAAAAAAAAOU/eoqDA6OkavU/s1600/PNS+Khalid+%2528S137%2529++Pakistan+Navy++%2528Agosta+90B%2529.jpg"/>
+                                    <img alt="dockyard" src="https://2.bp.blogspot.com/_895q5RhHB70/TVKqKwHOwRI/AAAAAAAAAOU/eoqDA6OkavU/s1600/PNS+Khalid+%2528S137%2529++Pakistan+Navy++%2528Agosta+90B%2529.jpg"/>
                                 </div>
                                 <div className="details">
                                     <div className="center">
@@ -120,16 +120,16 @@ export const Projects = () => (
                         <Col lg md>
                             <div className="card">
                                 <div className="image">
-                                    <img alt="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
+                                    <img alt="marineBuilding" src="https://www.seanews.com.tr/images/haberler/2015_11/156005/karachi341.jpg"/>
                                 </div>
                                 <div className="details">
                                     <div className="center">
-                                        <h1>National Stadium Karachi</h1>
+                                        <h1>KICT Marine Building</h1>
                                         <p style={{textAlign:"center"}}>Our Services</p>
                                         <div>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
+                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing & Sanitary Work</p>
+                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting System</p>
+                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Rain Water System</p>
                                         </div>
                                     </div>
                                 </div>
@@ -139,16 +139,16 @@ export const Projects = () => (
                         <Col lg md>
                             <div className="card">
                                 <div className="image">
-                                    <img alt="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
+                                    <img alt="6MarlaBahria" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR5lgGLVHBO0j1De6e8qCzC5Xe_q1qBgDVpyTGNy_zPPA9sD8pH&usqp=CAU"/>
                                 </div>
                                 <div className="details">
                                     <div className="center">
-                                        <h1>National Stadium Karachi</h1>
+                                        <h1>6 Marla Homes Bahria Town KHI</h1>
                                         <p style={{textAlign:"center"}}>Our Services</p>
                                         <div>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
+                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing & Sanitary Work</p>
+                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Booster Centrifugal Pumps</p>
+                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> External Rain Water System</p>
                                         </div>
                                     </div>
                                 </div>

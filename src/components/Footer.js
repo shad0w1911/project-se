@@ -3,12 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 import { Row, Col, Container } from 'react-bootstrap';
 import logo from '../assets/SE-logo.png';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
 import pdf from '../assets/SarwarEnterprisesReport.pdf'
 
 export const Footer = () => (
 
-    <div>
+    <div style={{marginTop:"10px"}}>
         <Container fluid>
         <Row>
             <Col md lg>
