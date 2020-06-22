@@ -44,7 +44,7 @@ export default function Services() {
                                     <Container>
                                         <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>01 - Electrical Work</p>
                                         <p style={{fontSize:"20px", fontWeight:"100"}}>
-                                            Our services includes installation, testing and commisioning of electric supply internal and external & also electric material supply.
+                                            Our services includes installation, testing and commissioning of electric supply internal and external & also electric material supply.
                                         </p>
                                         <Row>
                                             <Col md lg>

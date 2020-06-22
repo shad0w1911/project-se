@@ -172,6 +172,16 @@ button:hover {
     margin-left: 30px;
 }
 
+#brand {
+    color: #fff;
+    text-decoration: none;
+}
+
+#brand:hover {
+    color: #fb7820;
+    text-decoration: none;
+}
+
 #footerLogo {
     transform: translate(50px, 0);
     width: 400px;
@@ -373,5 +383,23 @@ button:hover {
     }
     #footerLogo {
         display: none;
+    }
+    #servicesP p {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        margin-left: 0px;
+    }
+    #servicesP2 p {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        text-align: justify;
+        margin-right: 0px;
+    }
+    .card {
+        margin-bottom: 10px;
+        padding: 0px;
+        margin-right: 0px;
     }
 }

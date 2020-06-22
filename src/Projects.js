@@ -5,7 +5,7 @@ import { Footer } from './components/Footer';
 
 export const Projects = () => (
     <React.Fragment>
-        <div>
+        <div style={{height:"100%"}}>
             <Container>
                 <div>
                     <Row>
@@ -38,7 +38,7 @@ export const Projects = () => (
                 <div>
                     <div>
                     <Row>
-                        <Col lg md>
+                        <Col lg md class="projectsDisplay">
                         <div className="card">
                                 <div className="image">
                                     <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
@@ -57,7 +57,7 @@ export const Projects = () => (
                             </div>
                         </Col>
 
-                        <Col lg md>
+                        <Col lg md  class="projectsDisplay">
                             <div className="card">
                                 <div className="image">
                                     <img alt="bhp" src="https://c.tribune.com.pk/2015/08/933627-BHP-1438926530.jpg"/>
@@ -76,7 +76,7 @@ export const Projects = () => (
                             </div>
                         </Col>
 
-                        <Col lg md>
+                        <Col lg md  class="projectsDisplay">
                             <div className="card">
                                 <div className="image">
                                     <img alt="luckyOne" src="https://karachihighlightshome.files.wordpress.com/2019/01/lucky-one.jpg?w=740"/>
@@ -99,7 +99,7 @@ export const Projects = () => (
                     {/* ------------------------------ */}
                     <div style={{marginTop:"20px"}}>
                     <Row>
-                        <Col lg md>
+                        <Col lg md  class="projectsDisplay">
                         <div className="card">
                                 <div className="image">
                                     <img alt="dockyard" src="https://2.bp.blogspot.com/_895q5RhHB70/TVKqKwHOwRI/AAAAAAAAAOU/eoqDA6OkavU/s1600/PNS+Khalid+%2528S137%2529++Pakistan+Navy++%2528Agosta+90B%2529.jpg"/>
@@ -117,7 +117,7 @@ export const Projects = () => (
                             </div>
                         </Col>
 
-                        <Col lg md>
+                        <Col lg md  class="projectsDisplay">
                             <div className="card">
                                 <div className="image">
                                     <img alt="marineBuilding" src="https://www.seanews.com.tr/images/haberler/2015_11/156005/karachi341.jpg"/>
@@ -136,7 +136,7 @@ export const Projects = () => (
                             </div>
                         </Col>
 
-                        <Col lg md>
+                        <Col lg md  class="projectsDisplay">
                             <div className="card">
                                 <div className="image">
                                     <img alt="6MarlaBahria" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR5lgGLVHBO0j1De6e8qCzC5Xe_q1qBgDVpyTGNy_zPPA9sD8pH&usqp=CAU"/>

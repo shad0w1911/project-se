@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
+import '../App.css';
 
 const Styles= styled.div`
 
@@ -22,7 +23,7 @@ export default function NavigationBar() {
     return (
         <Styles>
             <Navbar  variant="dark" expand="lg" sticky="top"  style={{backgroundColor: "#000", color: "#fff", borderBottom: "1px solid #fb7840"}}>
-                <Navbar.Brand style={{ fontSize: "24px", fontWeight: "10em" }}>SARWAR ENTERPRISES</Navbar.Brand>
+                <Navbar.Brand style={{ fontSize: "24px", fontWeight: "10em" }}><a href="https://shad0w1911.github.io/project-se/#/" id="brand">SARWAR ENTERPRISES</a></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" className="toggler"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">

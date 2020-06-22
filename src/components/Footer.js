@@ -49,7 +49,7 @@ export const Footer = () => (
                 </div>
             </Col>
         </Row>
-        </Container>
         <p style={{marginTop:'1em', width:'100%', textAlign:'center'}}>Developed By <span style={{color:'#fb7840'}}>Hassan Uddin Sheikh</span><br/>All Rights Reserved <FontAwesomeIcon icon={faCopyright}/> 2020</p>
+        </Container>
     </div>
 )
