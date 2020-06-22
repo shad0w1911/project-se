@@ -1,35 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aae430a2004a76d35756a08d87e86b0f",
+    "revision": "ea5f209f6b4666bbf20905f7a08825fe",
     "url": "/project-se/index.html"
   },
   {
-    "revision": "cbb13b9c99ff275ec5c4",
+    "revision": "f2519b73347265e5c7b5",
     "url": "/project-se/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "49c08c362af31dc7a0d3",
-    "url": "/project-se/static/css/main.e022b64a.chunk.css"
+    "revision": "32ab22430a94f272c9f3",
+    "url": "/project-se/static/css/main.0a64968f.chunk.css"
   },
   {
-    "revision": "cbb13b9c99ff275ec5c4",
-    "url": "/project-se/static/js/2.964803b2.chunk.js"
+    "revision": "f2519b73347265e5c7b5",
+    "url": "/project-se/static/js/2.ab11db97.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/project-se/static/js/2.964803b2.chunk.js.LICENSE.txt"
+    "url": "/project-se/static/js/2.ab11db97.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "49c08c362af31dc7a0d3",
-    "url": "/project-se/static/js/main.0d6b1a62.chunk.js"
+    "revision": "32ab22430a94f272c9f3",
+    "url": "/project-se/static/js/main.940e7039.chunk.js"
   },
   {
     "revision": "70c79d1b07d81109b015",
     "url": "/project-se/static/js/runtime-main.0f0a5856.js"
-  },
-  {
-    "revision": "b5dca10a98677c220b79362f7962cba1",
-    "url": "/project-se/static/media/DHA-City-Karachi-Main-Gate.b5dca10a.jpg"
   },
   {
     "revision": "837c72c979626ff5a884dc3215bd432d",
