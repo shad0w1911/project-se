@@ -160,6 +160,6 @@ export const Projects = () => (
                 </div>
             </Container>
         </div>
-        <Footer />
+        {/*<Footer />*/}
     </React.Fragment>
 )

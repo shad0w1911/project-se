@@ -76,9 +76,10 @@ button:hover {
     border-radius: .3rem;
 }
 
-#projectRow {
+
+/*#projectRow {
     margin-bottom: 150px;
-}
+}*/
 
 #wrapperVS1 {
     height: 600px;
@@ -236,8 +237,8 @@ button:hover {
 }
 
 .card .image img {
-    width: 100%;
-    height: 100%;
+    width: 350px;
+    height: 350px;
     transition: .5s;
 }
 
@@ -251,7 +252,7 @@ button:hover {
     top: 0;
     left: 0;
     width: 70%;
-    height: 100%;
+    height: 350px;
     background: #fb7820;
     transition: .5s;
     transform-origin: left;
