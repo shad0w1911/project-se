@@ -3,11 +3,9 @@ import { Container, Row, Col} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight, faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
-import { Footer } from './components/Footer';
 
 export default function Services() {
     return (
-        <React.Fragment>
             <div>
 
                 <div id="aboutFD">
@@ -214,7 +212,5 @@ export default function Services() {
                 </div>
 
             </div>
-            <Footer />
-        </React.Fragment>
     );
 }

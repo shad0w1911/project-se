@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 import { Row, Col, Container } from 'react-bootstrap';
@@ -7,7 +7,6 @@ import { Nav } from 'react-bootstrap';
 import pdf from '../assets/SarwarEnterprisesReport.pdf'
 
 export const Footer = () => (
-
     <div id="footer">
         <Container fluid>
         <Row>
