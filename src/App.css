@@ -298,34 +298,6 @@ button:hover {
     font-size: 8px;
 }
 
-.card .details .center ul {
-    margin: 10px auto 0;
-    padding: 0;
-    display: table;
-}
-
-.card .details .center ul li {
-    list-style: none;
-    margin: 0 3px;
-    float: left;
-}
-
-.card .details .center ul li a {
-    display: block;
-    background: #fff;
-    color: #262626;
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
-    text-align: center;
-    transition: .5s;
-}
-
-.card .details .center ul li a:hover {
-    background-color: #4cd3c2;
-}
-
 
 /* */
 
