@@ -3,7 +3,7 @@ import { Row, Col, Container } from "react-bootstrap";
 import './App.css';
 
 export const Projects = () => (
-        <div style={{height:"100%"}}>
+    <div style={{height:"100%"}}>
             <Container>
                 <div>
                     <Row>
@@ -36,9 +36,9 @@ export const Projects = () => (
 
                 {/*
                     DISPLAYED PROJECT
-                */}
+                
 
-                <div>
+        <div>
             <div>
                 <Row>
                     <Col lg md class="projectsDisplay">
@@ -159,8 +159,68 @@ export const Projects = () => (
                 </Row>
             </div>
         </div>
-        <br />
+        <br /> */}
         {/* ------------------------------------ */}
-            </Container>
-        </div>
+            <section>
+                <Row>
+                    <Col lg md>
+                        <div className="card">
+                            <div className="image">
+                                <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
+                            </div>
+                            <div className="details">
+                                <div className="center">
+                                    <h1>National Stadium Karachi</h1>
+                                    <p style={{textAlign:"center"}}>Our Services</p>
+                                    <div>
+                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
+                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
+                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+
+                    <Col lg md>
+                        <div className="card">
+                            <div className="image">
+                                <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
+                            </div>
+                            <div className="details">
+                                <div className="center">
+                                    <h1>National Stadium Karachi</h1>
+                                    <p style={{textAlign:"center"}}>Our Services</p>
+                                    <div>
+                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
+                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
+                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+
+                    <Col lg md>
+                        <div className="card">
+                            <div className="image">
+                                <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
+                            </div>
+                            <div className="details">
+                                <div className="center">
+                                    <h1>National Stadium Karachi</h1>
+                                    <p style={{textAlign:"center"}}>Our Services</p>
+                                    <div>
+                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
+                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
+                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+            </section>
+        </Container>
+    </div>
 )
