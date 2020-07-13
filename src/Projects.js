@@ -164,6 +164,18 @@ export const Projects = () => (
             <section>
                 <Row>
                     <Col lg md>
+                    <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG" width="350px" height="350px" />
+                    </Col>
+                    <Col lg md>
+                    <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG" width="350px" height="350px" />
+                    </Col>
+                    <Col lg md>
+                    <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG" width="350px" height="350px" />
+                    </Col>
+                </Row>
+                <br/>
+                <Row>
+                    <Col lg md>
                         <div className="card">
                             <div className="image">
                                 <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
