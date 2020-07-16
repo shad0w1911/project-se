@@ -37,15 +37,30 @@ export const Projects = () => (
             <section>
                 <Row>
                     <Col lg md>
-                    <div style={{width:"350px", height:"350px"}}>
-                    <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG" className="image"/>
-                    </div>
+                        <div style={{width:"350px"}}>
+                            <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG" className="image"/>
+                            <div>
+                                <h3 style={{textAlign:"center"}}>National Stadium</h3>
+                                <h5 style={{textAlign:"center"}}>Our Services</h5>
+                                <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officiis.</p>
+                            </div>
+                        </div>
                     </Col>
                     <Col lg md>
-                    <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG" className="image" />
-                    </Col>
+                        <img alt="nationalStadium" src="https://tribune-reloaded.s3.amazonaws.com/media/images/1057350-image-1456854258/1057350-image-1456854258.JPG" className="image" />
+                        <div>
+                            <h3 style={{textAlign:"center"}}>BHP Billiton Pakistan</h3>
+                            <h5 style={{textAlign:"center"}}>Our Services</h5>
+                            <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officiis.</p>
+                        </div>
+                        </Col>
                     <Col lg md>
-                    <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG" className="image" />
+                        <img alt="nationalStadium" src="https://zameenblog.s3.amazonaws.com/blog/wp-content/uploads/2019/05/cover-photo.jpg" className="image" />
+                        <div>
+                            <h3 style={{textAlign:"center"}}>Bahria Town Karachi</h3>
+                            <h5 style={{textAlign:"center"}}>Our Services</h5>
+                            <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officiis.</p>
+                        </div>
                     </Col>
                 </Row>
                 <br/>

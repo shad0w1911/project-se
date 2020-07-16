@@ -40,6 +40,7 @@ button:hover {
 }
 
 .carouselImage {
+    width: auto;
     height: 500px;
 }
 
@@ -220,7 +221,16 @@ button:hover {
 }
 
 
-/* Project CSS */
+/* ---------------------------------- */
+
+.image {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+}
+
+
+/* Project CSS 
 
 .card {
     position: absolute;
@@ -293,8 +303,7 @@ button:hover {
     font-size: 8px;
 }
 
-
-/* */
+*/
 
 @media(max-width: 500px) {
     #projectRow {

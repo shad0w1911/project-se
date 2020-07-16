@@ -8,7 +8,7 @@ export const Home = () => (
                 <Carousel autoPlay>
                     <Carousel.Item>
                         <div className="img-gradient" >
-                            <img className="d-block w-100 carouselImage" alt="First slide" width="100%" src="https://security-img.scdn6.secure.raxcdn.com/news/920/top-things-construction-site-security-checklist-920x533.jpg"/>
+                            <img className="d-block w-100 carouselImage" alt="First slide" width="100%" src="https://zainenterprises.pk/wp-content/uploads/2018/08/background.jpg"/>
                         </div>
                         <Carousel.Caption className = "transparentBg">
                             <h3>First slide label</h3>
@@ -17,7 +17,7 @@ export const Home = () => (
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className="img-gradient">
-                            <img className="d-block w-100 carouselImage" alt="Third slide" width="100%" src="https://images.pexels.com/photos/585418/pexels-photo-585418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'"/>
+                            <img className="d-block w-100 carouselImage" alt="Third slide" width="100%" src="https://constructionblog.autodesk.com/wp-content/uploads/2020/03/Construction-industry-statistics.jpg"/>
                         </div>
                         <Carousel.Caption className = "transparentBg" >
                             <h3 > Second slide label </h3>
