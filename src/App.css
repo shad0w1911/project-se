@@ -229,7 +229,7 @@ button:hover {
     background-color: #000;
 }
 
-.card .image {
+.image {
     width: 350px;
     height: 350px;
     overflow: hidden;

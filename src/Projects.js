@@ -33,147 +33,23 @@ export const Projects = () => (
                 <div>
                     <p style={{fontSize:"50px", fontWeight:"900", textAlign:"center", paddingBottom:"50px", color:"#fb7820"}}>Our Projects</p>
                 </div>
-
-                {/*
-                    DISPLAYED PROJECT
                 
-
-        <div>
-            <div>
-                <Row>
-                    <Col lg md class="projectsDisplay">
-                        <div className="card">
-                            <div className="image">
-                                <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
-                            </div>
-                            <div className="details">
-                                <div className="center">
-                                    <h1>National Stadium Karachi</h1>
-                                    <p style={{textAlign:"center"}}>Our Services</p>
-                                    <div>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col lg md class="projectsDisplay">
-                        <div className="card">
-                            <div className="image">
-                                <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
-                            </div>
-                            <div className="details">
-                                <div className="center">
-                                    <h1>National Stadium Karachi</h1>
-                                    <p style={{textAlign:"center"}}>Our Services</p>
-                                    <div>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col lg md class="projectsDisplay">
-                        <div className="card">
-                            <div className="image">
-                                <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
-                            </div>
-                            <div className="details">
-                                <div className="center">
-                                    <h1>National Stadium Karachi</h1>
-                                    <p style={{textAlign:"center"}}>Our Services</p>
-                                    <div>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </Col>
-                </Row>
-            </div>
-        </div>
-        <br />
-        <div>
-            <div>
-                <Row>
-                    <Col lg md class="projectsDisplay">
-                        <div className="card">
-                            <div className="image">
-                                <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
-                            </div>
-                            <div className="details">
-                                <div className="center">
-                                    <h1>National Stadium Karachi</h1>
-                                    <p style={{textAlign:"center"}}>Our Services</p>
-                                    <div>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col lg md class="projectsDisplay">
-                        <div className="card">
-                            <div className="image">
-                                <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
-                            </div>
-                            <div className="details">
-                                <div className="center">
-                                    <h1>National Stadium Karachi</h1>
-                                    <p style={{textAlign:"center"}}>Our Services</p>
-                                    <div>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col lg md class="projectsDisplay">
-                        <div className="card">
-                            <div className="image">
-                                <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
-                            </div>
-                            <div className="details">
-                                <div className="center">
-                                    <h1>National Stadium Karachi</h1>
-                                    <p style={{textAlign:"center"}}>Our Services</p>
-                                    <div>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </Col>
-                </Row>
-            </div>
-        </div>
-        <br /> */}
-        {/* ------------------------------------ */}
             <section>
                 <Row>
                     <Col lg md>
-                    <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG" width="350px" height="350px" />
+                    <div style={{width:"350px", height:"350px"}}>
+                    <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG" className="image"/>
+                    </div>
                     </Col>
                     <Col lg md>
-                    <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG" width="350px" height="350px" />
+                    <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG" className="image" />
                     </Col>
                     <Col lg md>
-                    <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG" width="350px" height="350px" />
+                    <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG" className="image" />
                     </Col>
                 </Row>
                 <br/>
+                {/*
                 <Row>
                     <Col lg md>
                         <div className="card">
@@ -232,6 +108,7 @@ export const Projects = () => (
                         </div>
                     </Col>
                 </Row>
+                */}
             </section>
         </Container>
     </div>
