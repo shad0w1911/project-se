@@ -65,7 +65,7 @@ export const Projects = () => (
                     </Row>
                     <Row>
                         <Col lg md>
-                            <Card style={{ width: '18rem' }}>
+                            <Card style={{ width: '20rem' }}>
                                 <Card.Img variant="top" src="https://www.samaa.tv/wp-content/uploads/2018/05/bahria.jpg" />
                                 <Card.Body>
                                     <Card.Title>Card Title</Card.Title>
@@ -77,7 +77,7 @@ export const Projects = () => (
                             </Card>
                         </Col>
                         <Col lg md>
-                            <Card style={{ width: '18rem' }}>
+                            <Card style={{ width: '20rem' }}>
                                 <Card.Img variant="top" src="https://www.samaa.tv/wp-content/uploads/2018/05/bahria.jpg" />
                                 <Card.Body>
                                     <Card.Title>Card Title</Card.Title>
@@ -89,7 +89,7 @@ export const Projects = () => (
                             </Card>
                         </Col>
                         <Col lg md>
-                            <Card style={{ width: '18rem' }}>
+                            <Card style={{ width: '20rem' }}>
                                 <Card.Img variant="top" src="https://www.samaa.tv/wp-content/uploads/2018/05/bahria.jpg" />
                                 <Card.Body>
                                     <Card.Title>Card Title</Card.Title>
