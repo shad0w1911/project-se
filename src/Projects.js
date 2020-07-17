@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col, Container, Card } from "react-bootstrap";
 import './App.css';
 
 export const Projects = () => (
@@ -34,97 +34,135 @@ export const Projects = () => (
                     <p style={{fontSize:"50px", fontWeight:"900", textAlign:"center", paddingBottom:"50px", color:"#fb7820"}}>Our Projects</p>
                 </div>
                 
-            <section>
-                <Row>
-                    <Col lg md>
-                        <div style={{width:"350px"}}>
-                            <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG" className="image"/>
+                <section>
+                    <Row>
+                        <Col lg md>
+                            <div style={{width:"350px"}}>
+                                <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG" className="image"/>
+                                <div>
+                                    <h3 style={{textAlign:"center"}}>National Stadium</h3>
+                                    <h5 style={{textAlign:"center"}}>Our Services</h5>
+                                    <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officiis.</p>
+                                </div>
+                            </div>
+                        </Col>
+                        <Col lg md>
+                            <img alt="nationalStadium" src="https://tribune-reloaded.s3.amazonaws.com/media/images/1057350-image-1456854258/1057350-image-1456854258.JPG" className="image" />
                             <div>
-                                <h3 style={{textAlign:"center"}}>National Stadium</h3>
+                                <h3 style={{textAlign:"center"}}>BHP Billiton Pakistan</h3>
                                 <h5 style={{textAlign:"center"}}>Our Services</h5>
                                 <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officiis.</p>
                             </div>
-                        </div>
-                    </Col>
-                    <Col lg md>
-                        <img alt="nationalStadium" src="https://tribune-reloaded.s3.amazonaws.com/media/images/1057350-image-1456854258/1057350-image-1456854258.JPG" className="image" />
-                        <div>
-                            <h3 style={{textAlign:"center"}}>BHP Billiton Pakistan</h3>
-                            <h5 style={{textAlign:"center"}}>Our Services</h5>
-                            <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officiis.</p>
-                        </div>
+                            </Col>
+                        <Col lg md>
+                            <img alt="nationalStadium" src="https://www.samaa.tv/wp-content/uploads/2018/05/bahria.jpg" className="image" />
+                            <div>
+                                <h3 style={{textAlign:"center"}}>Bahria Town Karachi</h3>
+                                <h5 style={{textAlign:"center"}}>Our Services</h5>
+                                <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officiis.</p>
+                            </div>
                         </Col>
-                    <Col lg md>
-                        <img alt="nationalStadium" src="https://zameenblog.s3.amazonaws.com/blog/wp-content/uploads/2019/05/cover-photo.jpg" className="image" />
-                        <div>
-                            <h3 style={{textAlign:"center"}}>Bahria Town Karachi</h3>
-                            <h5 style={{textAlign:"center"}}>Our Services</h5>
-                            <p style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, officiis.</p>
-                        </div>
-                    </Col>
-                </Row>
-                <br/>
-                {/*
-                <Row>
-                    <Col lg md>
-                        <div className="card">
-                            <div className="image">
-                                <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
-                            </div>
-                            <div className="details">
-                                <div className="center">
-                                    <h1>National Stadium Karachi</h1>
-                                    <p style={{textAlign:"center"}}>Our Services</p>
-                                    <div>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
+                    </Row>
+                    <Row>
+                        <Col lg md>
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src="https://www.samaa.tv/wp-content/uploads/2018/05/bahria.jpg" />
+                                <Card.Body>
+                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Text>
+                                        Some quick example text to build on the card title and make up the bulk of
+                                        the card's content.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg md>
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src="https://www.samaa.tv/wp-content/uploads/2018/05/bahria.jpg" />
+                                <Card.Body>
+                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Text>
+                                        Some quick example text to build on the card title and make up the bulk of
+                                        the card's content.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col lg md>
+                            <Card style={{ width: '18rem' }}>
+                                <Card.Img variant="top" src="https://www.samaa.tv/wp-content/uploads/2018/05/bahria.jpg" />
+                                <Card.Body>
+                                    <Card.Title>Card Title</Card.Title>
+                                    <Card.Text>
+                                        Some quick example text to build on the card title and make up the bulk of
+                                        the card's content.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                    </Row>
+                    <br/>
+                    {/*
+                    <Row>
+                        <Col lg md>
+                            <div className="card">
+                                <div className="image">
+                                    <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
+                                </div>
+                                <div className="details">
+                                    <div className="center">
+                                        <h1>National Stadium Karachi</h1>
+                                        <p style={{textAlign:"center"}}>Our Services</p>
+                                        <div>
+                                            <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
+                                            <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
+                                            <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </Col>
+                        </Col>
 
-                    <Col lg md>
-                        <div className="card">
-                            <div className="image">
-                                <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
-                            </div>
-                            <div className="details">
-                                <div className="center">
-                                    <h1>National Stadium Karachi</h1>
-                                    <p style={{textAlign:"center"}}>Our Services</p>
-                                    <div>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
+                        <Col lg md>
+                            <div className="card">
+                                <div className="image">
+                                    <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
+                                </div>
+                                <div className="details">
+                                    <div className="center">
+                                        <h1>National Stadium Karachi</h1>
+                                        <p style={{textAlign:"center"}}>Our Services</p>
+                                        <div>
+                                            <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
+                                            <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
+                                            <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </Col>
+                        </Col>
 
-                    <Col lg md>
-                        <div className="card">
-                            <div className="image">
-                                <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
-                            </div>
-                            <div className="details">
-                                <div className="center">
-                                    <h1>National Stadium Karachi</h1>
-                                    <p style={{textAlign:"center"}}>Our Services</p>
-                                    <div>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
-                                        <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
+                        <Col lg md>
+                            <div className="card">
+                                <div className="image">
+                                    <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG"/>
+                                </div>
+                                <div className="details">
+                                    <div className="center">
+                                        <h1>National Stadium Karachi</h1>
+                                        <p style={{textAlign:"center"}}>Our Services</p>
+                                        <div>
+                                            <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
+                                            <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
+                                            <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </Col>
-                </Row>
-                */}
-            </section>
-        </Container>
+                        </Col>
+                    </Row>
+                    */}
+                </section>
+            </Container>
     </div>
 )
