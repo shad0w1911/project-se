@@ -3,6 +3,7 @@
     background-color: #000;
     color: #fff;
     scroll-behavior: smooth;
+    font-family: 'Alata', sans-serif;
 }
 
 div {
@@ -218,6 +219,10 @@ button:hover {
     text-align: left;
     text-align: justify;
     margin-right: 80px;
+}
+
+.projectDisplayContainer {
+    background-color: #302e2c;
 }
 
 
