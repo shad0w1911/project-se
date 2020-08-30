@@ -222,7 +222,9 @@ button:hover {
 }
 
 .projectDisplayContainer {
-    background-color: #302e2c;
+    background-color: #141414;
+    border: 1px solid #141414;
+    align-content: center;
 }
 
 
@@ -232,6 +234,7 @@ button:hover {
     width: 350px;
     height: 350px;
     overflow: hidden;
+    display: block;
 }
 
 @media(max-width: 500px) {
