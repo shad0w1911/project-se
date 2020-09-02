@@ -48,7 +48,6 @@ export const Projects = () => (
                                         <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire-fighting System <br/>
                                         <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Booster Centrifugal Pump <br/>
                                         <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> External Rain Water <br/>
-                                         
                                     </p>
                                 </div>
                             </div>
@@ -63,7 +62,6 @@ export const Projects = () => (
                                     <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire-fighting System <br/>
                                     <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Booster Centrifugal Pump <br/>
                                     <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> External Rain Water <br/>
-                                     
                                 </p>
                             </div>
                             </Col>
@@ -77,7 +75,6 @@ export const Projects = () => (
                                     <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire-fighting System <br/>
                                     <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Booster Centrifugal Pump <br/>
                                     <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> External Rain Water System <br/>
-                                     
                                 </p>
                             </div>
                         </Col>
