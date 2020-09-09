@@ -70,7 +70,7 @@ export const Home = () => (
                         </div>
                     </Container>
                     <div className="img-gradient" >
-                        <img src="https://wallpaperplay.com/walls/full/3/a/e/77868.jpg" height="700px" className="img-fluid"/>
+                        <img src="https://wallpaperplay.com/walls/full/3/a/e/77868.jpg" alt="office" height="700px" className="img-fluid"/>
                     </div>
                 </Container>
             </div>
