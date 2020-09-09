@@ -17,7 +17,7 @@ export const Home = () => (
                     </Carousel.Item>
                     <Carousel.Item>
                         <div className="img-gradient">
-                            <img className="d-block w-100 carouselImage" alt="Third slide" width="100%" src="https://constructionblog.autodesk.com/wp-content/uploads/2020/03/Construction-industry-statistics.jpg"/>
+                            <img className="d-block w-100 carouselImage" alt="Second slide" width="100%" src="https://constructionblog.autodesk.com/wp-content/uploads/2020/03/Construction-industry-statistics.jpg"/>
                         </div>
                         <Carousel.Caption className = "transparentBg" >
                             <h3 > Second slide label </h3>
@@ -43,17 +43,10 @@ export const Home = () => (
                     <div id = "aboutFD">
                         <Row >
                             <Col lg md>
-                                <h1 style={{
-    textAlign: "center"
-  }}>Sarwar Enterprises is a team of experts that strive for <span style={{
-    color: "#fb7840"
-  }}>perfection</span>.</h1>
+                                <h1 style={{textAlign: "center"}}>Sarwar Enterprises is a team of experts that strive for <span style={{color: "#fb7840"}}>perfection</span>.</h1>
                             </Col>
                             <Col lg md>
-                            <p style={{
-    textAlign: "center",
-    fontWeight: "100"
-  }}>
+                            <p style={{textAlign: "center", fontWeight: "100"}}>
                                 Sarwar Enterprises has a very efficient & professional setup with dedicated units of demolition, civil & plumbing works, wooden & metal works, electrical, lain & A/Cs works,
                                 aluminium, fire-fighting, medical-gases glass and all other related general works.
                             </p>
@@ -65,17 +58,10 @@ export const Home = () => (
                         <div>
                             <Row>
                                 <Col lg md>
-                                    <p style={{
-    fontSize: "40px",
-    fontWeight: "400",
-    color: "#fb7840"
-  }}>What we do</p>
+                                    <p style={{fontSize: "40px", fontWeight: "400", color: "#fb7840"}}>What we do</p>
                                 </Col>
                                 <Col lg md>
-                                    <p style={{
-    fontSize: "20px",
-    fontWeight: "300"
-  }}>
+                                    <p style={{fontSize: "20px",fontWeight: "300"}}>
                                         With a vast range of facilities, from the developments of basic concept to the high quality fabrication & construction work, electrical mechanical and plumbing, fire-fighting, medical-gases work.
                                         This firm is posied to fulfill any project all over the Pakistan.
                                     </p>
