@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopyright } from '@fortawesome/free-solid-svg-icons';
-import { Row, Col, Container } from 'react-bootstrap';
+import { Row, Col, Container, Button } from 'react-bootstrap';
 import logo from '../assets/SE-logo.png';
 import { Nav } from 'react-bootstrap';
 
@@ -13,16 +13,16 @@ export const Footer = () => (
             <div id="footerFD">
                 <p style={{fontSize:"40px", fontWeight:"500", color:"#fb7840"}}>Got a project?<br/>
                 <span style={{fontSize:"30px", fontWeight:"300", color:"#fff"}}>We want to hear about it.</span></p>
+                <Button id="footerSub" type="button" onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href='https://shad0w1911.github.io/project-se/#/Contact';
+                    }}> Contact Us </Button>
                 <div id="footerSD">
                     <Row>
                         <Col lg md id="colF">
                             <Row>
-                                <Col-4 md lg>
-                                <p style={{fontSize:"20px", fontWeight:"300"}}> +92 - 301 - 2265115 <br /> +92 - 333 - 3363642</p>
-                                </Col-4>
-                                <Col md lg>
-                                <p style={{fontSize:"20px", fontWeight:"300"}}> noman.sarwar@sarwarenterprises.org <br /> rizwan.sarwar@sarwarenterprises.org</p>
-                                </Col>
+                                <Col-8 md lg>
+                                </Col-8>
                             </Row>
                         </Col>
                     </Row>
