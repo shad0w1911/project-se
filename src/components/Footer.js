@@ -18,10 +18,10 @@ export const Footer = () => (
                         <Col lg md id="colF">
                             <Row>
                                 <Col-4 md lg>
-                                <p style={{fontSize:"20px", fontWeight:"300"}}> (+789) 132 4657</p>
+                                <p style={{fontSize:"20px", fontWeight:"300"}}> +92 - 301 - 2265115 <br /> +92 - 333 - 3363642</p>
                                 </Col-4>
                                 <Col md lg>
-                                <p style={{fontSize:"20px", fontWeight:"300"}}>example@example.com</p>
+                                <p style={{fontSize:"20px", fontWeight:"300"}}> noman.sarwar@sarwarenterprises.org <br /> rizwan.sarwar@sarwarenterprises.org</p>
                                 </Col>
                             </Row>
                         </Col>
