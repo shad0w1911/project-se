@@ -14,7 +14,7 @@ export const Contact = () => (
                     <p>
                         <span><FontAwesomeIcon icon = {faMapSigns} size = "lg" className="contactFa"/></span>
                         <span className="heading">Address</span></p> <br/>
-                    <p className="plainText"> 13927 Saticoy Street,<br/> Panorama City, <br/>California 91402, USA</p>
+                    <p className="plainText"> 01 Glass Tower,<br/> Block 10-A, Gulshan-e-Iqbal, <br/> Karachi, Pakistan.</p>
                 </div>
                 <div className="textHolder">
                     <p>
@@ -22,13 +22,13 @@ export const Contact = () => (
                         <span className="heading">Let 's Talk</span>
                     </p>
                     <br/>
-                    <p  className="plainText"> +1 - 541 - 754 - 3011 <br /> +1 - 541 - 754 - 3010 </p>
+                    <p  className="plainText"> +92 - 301 - 2265115 <br /> +92 - 333 - 3363642 </p>
                 </div>
                 <div className="textHolder">
                     <p>
                         <span><FontAwesomeIcon icon = {faEnvelope} size = "lg" className="contactFa"/></span>
                         <span className="heading">General Support </span></p> <br />
-                    <p className="plainText"> info@sarwarenterprises.com <br /> admin@sarwarenterprises.com </p>
+                    <p className="plainText"> noman.sarwar@sarwarenterprises.org<br /> rizwan.sarwar@sarwarenterprises.org </p>
                 </div>
             </div>
         </div>
