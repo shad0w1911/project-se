@@ -59,9 +59,9 @@ button:hover {
     height: 100%;
     display: inline-block;
     background: rgb(0, 0, 0);
-    background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
-    background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
+    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 3, 0) 80%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 3, 0) 80%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 3, 0) 80%, rgba(0, 0, 0, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
 }
 
@@ -71,11 +71,10 @@ button:hover {
 
 .img-gradient-overlay {
     background: rgb(0, 0, 0);
-    background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
-    background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9976365546218487) 2%, rgba(251, 120, 64, 0.19931722689075626) 50%, rgba(0, 0, 0, 1) 98%);
+    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 3, 0) 80%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 3, 0) 80%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 3, 0) 80%, rgba(0, 0, 0, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
-    border-radius: .3rem;
 }
 
 #wrapperVS1 {
