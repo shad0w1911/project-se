@@ -250,6 +250,10 @@ button:hover {
 }
 
 @media(max-width: 500px) {
+    .App {
+        margin: 0;
+        padding: 0;
+    }
     #projectRow {
         margin-bottom: 50px;
     }
@@ -293,8 +297,11 @@ button:hover {
     }
     #footerSD p span {
         float: none;
-        margin-right: 25px;
+        margin-right: 15px;
         text-align: center;
+    }
+    #colF {
+        margin: 0;
     }
     #colF Row Col p {
         margin-left: 0;
