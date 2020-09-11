@@ -3,11 +3,11 @@ import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faMapSigns, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faMapSigns, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import './contact.css';
 
 export const Contact = () => (
-    <div className="row" id="mainHolder">
+  <div className="row" id="mainHolder">
         <div className="col-lg" id="contactIMG">
             <div>
                 <div className="textHolder">
