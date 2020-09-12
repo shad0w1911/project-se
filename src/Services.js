@@ -13,6 +13,7 @@ export default function Services() {
                         <Row>
                             <Col md lg id="servicesP">
                                 <h1 style={{textAlign:"center"}}>Services We Offer</h1>
+                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Civil Work</p>
                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Mechanical Work</p>
@@ -24,6 +25,41 @@ export default function Services() {
                                 <i class="fa fa-quote-left" aria-hidden="true" style={{color:"#fb7820", fontSize:"30px"}}></i> With the availablity of all related equipments at our factory, our qualified, trianed and experience teams of Carpenters, Electricians, Plumbers, Fabricators, Painters and Polishers,
                                     speedily manufactures and finishes our designed products. And at the final stage the required teams works on site also.  <i class="fa fa-quote-right" aria-hidden="true"  style={{color:"#fb7820", fontSize:"30px"}}></i>
                                 </p>
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>
+
+                <div id="wrapperVS1">
+                    <Container>
+                        <Row>
+                            <Col lg md>
+                                <div id="projectVS1">
+                                    <Container>
+                                        <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>01 - Civil Work</p>
+                                        <Row>
+                                            <Col md lg>
+                                                <p style={{fontSize:"20px", fontWeight:"100", color:"#fb7840"}}>Construction</p>
+                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Construction of Roads, Culverts and Retaining structures</p>
+                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Construction of Water supply / Sewerage</p>
+                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Construction of  Buildings</p>
+                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Boundary Walls / Fencing</p>
+                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Ancillary Works</p>
+                                            </Col>
+                                            <Col md lg>
+                                                <p style={{fontSize:"20px", fontWeight:"100", color:"#fb7840"}}>Architecture / Designing</p>
+                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Design and Site Development</p>
+                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Structural Design</p>
+                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical / Plumbing/ Communication System Design</p>
+                                            </Col>
+                                        </Row>
+                                    </Container>
+                                </div>
+                            </Col>
+                            <Col md lg>
+                                <div>
+                                    <img  id="imgVS1" src="https://cdn.pixabay.com/photo/2015/12/07/10/55/electric-1080584_960_720.jpg" alt="image"/>
+                                </div>
                             </Col>
                         </Row>
                     </Container>

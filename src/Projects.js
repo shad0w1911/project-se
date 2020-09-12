@@ -32,7 +32,7 @@ export const Projects = () => (
                         </Row>
                 </div>
                 <div>
-                    <p style={{fontSize:"50px", fontWeight:"900", textAlign:"center", paddingBottom:"50px", color:"#fb7820"}}>Current Projects</p>
+                    <p style={{fontSize:"50px", fontWeight:"900", textAlign:"center", paddingBottom:"50px", color:"#fb7820"}}>Our Projects</p>
                 </div>
                 
                 <section>
