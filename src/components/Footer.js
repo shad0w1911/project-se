@@ -4,6 +4,7 @@ import { faCopyright } from '@fortawesome/free-solid-svg-icons';
 import { Row, Col, Container, Button } from 'react-bootstrap';
 import logo from '../assets/SE-logo.png';
 import { Nav } from 'react-bootstrap';
+import profile from '../assets/profile/profile.pdf';
 
 export const Footer = () => (
     <div id="footer">
@@ -39,7 +40,7 @@ export const Footer = () => (
                             <Nav id="footerNav" className="ml-auto">
                                 <Col md lg><Nav.Item><Nav.Link href="https://shad0w1911.github.io/project-se/#/" className="footerNavLink">Home</Nav.Link></Nav.Item></Col>
                                 <Col md lg><Nav.Item><Nav.Link href="https://shad0w1911.github.io/project-se/#/Services" className="footerNavLink">Services</Nav.Link></Nav.Item></Col>
-                                <Col md lg><Nav.Item><Nav.Link href="#" className="footerNavLink">Profile</Nav.Link></Nav.Item></Col>
+                                <Col md lg><Nav.Item><Nav.Link href={profile} target="_blank" className="footerNavLink">Profile</Nav.Link></Nav.Item></Col>
                                 <Col md lg><Nav.Item><Nav.Link href="https://shad0w1911.github.io/project-se/#/Contact" className="footerNavLink">Contact</Nav.Link></Nav.Item></Col>
                             </Nav>
                         </Row>
