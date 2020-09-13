@@ -1,7 +1,5 @@
 import React from 'react';
 import { Container, Row, Col} from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronRight, faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
 export default function Services() {
@@ -22,7 +20,7 @@ export default function Services() {
                             </Col>
                             <Col md lg id="servicesP2">
                                 <p>
-                                <i class="fa fa-quote-left" aria-hidden="true" style={{color:"#fb7820", fontSize:"30px"}}></i> With the availablity of all related equipments at our factory, our qualified, trianed and experience teams of Carpenters, Electricians, Plumbers, Fabricators, Painters and Polishers,
+                                <i class="fa fa-quote-left" aria-hidden="true" style={{color:"#fb7820", fontSize:"30px"}}></i> With the availability of all related equipments at our factory, our qualified, trained and experience teams of Carpenters, Electricians, Plumbers, Fabricators, Painters and Polishers,
                                     speedily manufactures and finishes our designed products. And at the final stage the required teams works on site also.  <i class="fa fa-quote-right" aria-hidden="true"  style={{color:"#fb7820", fontSize:"30px"}}></i>
                                 </p>
                             </Col>
@@ -58,7 +56,7 @@ export default function Services() {
                             </Col>
                             <Col md lg>
                                 <div>
-                                    <img  id="imgVS1" src="https://cdn.pixabay.com/photo/2015/12/07/10/55/electric-1080584_960_720.jpg" alt="image"/>
+                                    <img  id="imgVS1" src="https://cdn.pixabay.com/photo/2015/12/07/10/55/electric-1080584_960_720.jpg" alt="civil work"/>
                                 </div>
                             </Col>
                         </Row>
@@ -70,7 +68,7 @@ export default function Services() {
                         <Row>
                             <Col md lg>
                                 <div>
-                                    <img  id="imgVS1" src="https://cdn.pixabay.com/photo/2015/12/07/10/55/electric-1080584_960_720.jpg" alt="image"/>
+                                    <img  id="imgVS1" src="https://cdn.pixabay.com/photo/2015/12/07/10/55/electric-1080584_960_720.jpg" alt="electrical work"/>
                                 </div>
                             </Col>
                             <Col lg md>
@@ -82,7 +80,7 @@ export default function Services() {
                                         </p>
                                         <Row>
                                             <Col md lg>
-                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Conduets</p>
+                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Conduits</p>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Wiring</p>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Db Terminations</p>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Light Fixtures</p>
@@ -92,7 +90,7 @@ export default function Services() {
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Earthing</p>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Main Cables</p>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Cable Trays</p>
-                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> SMBD LV Panels</p>
+                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> SMDB LV Panels</p>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> CCTV</p>
                                             </Col>
                                         </Row>
@@ -111,7 +109,7 @@ export default function Services() {
                                     <Container>
                                         <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>03 - Plumbing</p>
                                         <p style={{fontSize:"20px", fontWeight:"100"}}>
-                                            Our services includes installation, testing and commisioning of water supply system, pressurized system, external rain water system, irrigation & sprinkler system. SEL offers following services to its clients.
+                                            Our services includes installation, testing and commissioning of water supply system, pressurized system, external rain water system, irrigation & sprinkler system. SEL offers following services to its clients.
                                         </p>
                                         <Row>
                                             <Col md lg>
@@ -119,10 +117,10 @@ export default function Services() {
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Commercial Kitchen Plumbing</p>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Gas Distribution System</p>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fuel, Oil Storage & Distribution</p>
-                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Waste Collection & treatement</p>
+                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Waste Collection & treatment</p>
                                             </Col>
                                             <Col md lg>
-                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Waste & Water Treatement</p>
+                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Waste & Water Treatment</p>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Garden Sprinkler System</p>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Hospital/Clinical Piping</p>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Domestic Water</p>
@@ -134,7 +132,7 @@ export default function Services() {
                             </Col>
                             <Col lg md>
                                 <div>
-                                    <img  id="imgVS1" src="https://cdn.pixabay.com/photo/2017/08/23/10/22/tubing-2672187_960_720.jpg" alt="image"/>
+                                    <img  id="imgVS1" src="https://cdn.pixabay.com/photo/2017/08/23/10/22/tubing-2672187_960_720.jpg" alt="plumbing"/>
                                 </div>
                             </Col>
                         </Row>
@@ -146,7 +144,7 @@ export default function Services() {
                         <Row>
                             <Col md lg>
                                 <div>
-                                    <img  id="imgVS1" src="https://cdn.pixabay.com/photo/2016/05/09/17/26/motor-1381995_960_720.jpg" alt="image"/>
+                                    <img  id="imgVS1" src="https://cdn.pixabay.com/photo/2016/05/09/17/26/motor-1381995_960_720.jpg" alt="Mechanical"/>
                                 </div>
                             </Col>
                             <Col lg md>
@@ -160,7 +158,7 @@ export default function Services() {
                                             <Col md lg>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Central Heating</p>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Ventilation System</p>
-                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Industrial Plant Exhuasts</p>
+                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Industrial Plant Exhausts</p>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Heat Recovery System</p>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Power & Steam Generating System</p>
                                             </Col>
@@ -192,13 +190,13 @@ export default function Services() {
                                         <Row>
                                             <Col md lg>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Sprinkler System</p>
-                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Hyderant System</p>
-                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Supression System</p>
+                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Hydrant System</p>
+                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Suppression System</p>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Commercial Kitchen Fire Fighting System</p>
                                             </Col>
                                             <Col md lg>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Pumping Station</p>
-                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> External Hyderant System</p>
+                                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> External Hydrant System</p>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> FM Exhaust System</p>
                                                 <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Automated Zone Check Assembly System</p>
                                             </Col>
@@ -208,7 +206,7 @@ export default function Services() {
                             </Col>
                             <Col lg md>
                                 <div>
-                                    <img  id="imgVS1" src="https://cdn.pixabay.com/photo/2016/09/12/22/38/fire-1665996_960_720.jpg" alt="image"/>
+                                    <img  id="imgVS1" src="https://cdn.pixabay.com/photo/2016/09/12/22/38/fire-1665996_960_720.jpg" alt="firefighting"/>
                                 </div>
                             </Col>
                         </Row>
@@ -220,7 +218,7 @@ export default function Services() {
                         <Row>
                             <Col md lg>
                                 <div>
-                                    <img  id="imgVS1" src="https://www.tri-techmedical.com/sites/default/files/ez-backfeed_ez-find.jpg" alt="image"/>
+                                    <img  id="imgVS1" src="https://www.tri-techmedical.com/sites/default/files/ez-backfeed_ez-find.jpg" alt="medical gases"/>
                                 </div>
                             </Col>
                             <Col lg md>
