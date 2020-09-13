@@ -1,9 +1,9 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { Row, Col, Container } from "react-bootstrap";
-import image1 from './assets/home/01.jpg';
+import image1 from './assets/home/electrical.jpg';
 import image2 from './assets/home/02.jpg';
-import image3 from './assets/home/03.jpg';
+import image3 from './assets/home/plumbing.jpg';
 
 export const Home = () => (
         <div>
@@ -14,8 +14,8 @@ export const Home = () => (
                             <img className="d-block w-100 carouselImage" alt="First slide" width="100%" src={image1}/>
                         </div>
                         <Carousel.Caption className = "transparentBg">
-                            <h3>First slide label</h3>
-                            <p className="SEorange">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h3 className="SEorange"> Electrical Work </h3>
+                            <p style={{fontSize:"20px", fontWeight:"200"}}> Our services includes installation, testing and commissioning of electric supply internal and external & also electric material supply.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -23,8 +23,8 @@ export const Home = () => (
                             <img className="d-block w-100 carouselImage" alt="Second slide" width="100%" src={image2}/>
                         </div>
                         <Carousel.Caption className = "transparentBg" >
-                            <h3 > Second slide label </h3>
-                            <p className = "SEorange" > Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <h3 className = "SEorange"> Civil Work </h3>
+                            <p style={{fontSize:"20px", fontWeight:"200"}}> Our civil work includes Construction of Roads, Culverts, Retaining Structures, Buildings, Boundary Walls, Fencing, Design and Site Development.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -32,8 +32,8 @@ export const Home = () => (
                             <img className="d-block w-100 carouselImage" alt="Third slide" width="100%" src={image3}/>
                         </div>
                         <Carousel.Caption className="transparentBg">
-                            <h3>Third slide label</h3>
-                            <p className="SEorange"> Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <h3 className="SEorange"> Plumbing </h3>
+                            <p style={{fontSize:"20px", fontWeight:"200"}}> Our services includes installation, testing and commissioning of water supply system, pressurized system, external rain water system, irrigation & sprinkler system. SEL offers following services to its clients.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
