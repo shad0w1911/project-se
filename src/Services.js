@@ -76,7 +76,7 @@ export default function Services() {
                             <Col lg md>
                                 <div id="projectVS1">
                                     <Container>
-                                        <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>01 - Electrical Work</p>
+                                        <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>02 - Electrical Work</p>
                                         <p style={{fontSize:"20px", fontWeight:"100"}}>
                                             Our services includes installation, testing and commissioning of electric supply internal and external & also electric material supply.
                                         </p>
@@ -109,7 +109,7 @@ export default function Services() {
                             <Col md lg>
                                 <div id="projectVS1">
                                     <Container>
-                                        <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>02 - Plumbing</p>
+                                        <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>03 - Plumbing</p>
                                         <p style={{fontSize:"20px", fontWeight:"100"}}>
                                             Our services includes installation, testing and commisioning of water supply system, pressurized system, external rain water system, irrigation & sprinkler system. SEL offers following services to its clients.
                                         </p>
@@ -152,7 +152,7 @@ export default function Services() {
                             <Col lg md>
                                 <div id="projectVS1">
                                     <Container>
-                                        <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>03 - Mechanical Solutions</p>
+                                        <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>04 - Mechanical Solutions</p>
                                         <p style={{fontSize:"20px", fontWeight:"100"}}>
                                             Our services includes installation of pipes, ducts, equipment, valves, complete HVAC plant rooms, air handling rooms, air conditioning as well as our services includes.
                                         </p>
@@ -185,7 +185,7 @@ export default function Services() {
                             <Col md lg>
                                 <div id="projectVS1">
                                     <Container>
-                                        <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>04 - Fire Fighting</p>
+                                        <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>05 - Fire Fighting</p>
                                         <p style={{fontSize:"20px", fontWeight:"100"}}>
                                             Our service includes installation of fire fighting equipment in plant rooms and pipes, sprinkler etc required on building floors. Our major services includes.
                                         </p>
@@ -226,7 +226,7 @@ export default function Services() {
                             <Col lg md>
                                 <div id="projectVS1">
                                     <Container>
-                                        <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>05 - Medical Gases Work</p>
+                                        <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>06 - Medical Gases Work</p>
                                         <p style={{fontSize:"20px", fontWeight:"100"}}>
                                             Our services includes installation of pipes, equipment, valves as well as our services includes.
                                         </p>
