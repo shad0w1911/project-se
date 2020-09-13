@@ -249,7 +249,7 @@ button:hover {
     display: block;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 770px) {
     #footer {
         align-content: center;
     }
