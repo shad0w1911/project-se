@@ -10,7 +10,7 @@ export const Home = () => (
             <div>
                 <Carousel autoPlay>
                     <Carousel.Item>
-                        <div className="img-gradient" >
+                        <div className="img-gradient img-gradient-overlay" >
                             <img className="d-block w-100 carouselImage" alt="First slide" width="100%" src={image1}/>
                         </div>
                         <Carousel.Caption className = "transparentBg">
@@ -19,7 +19,7 @@ export const Home = () => (
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="img-gradient">
+                        <div className="img-gradient img-gradient-overlay">
                             <img className="d-block w-100 carouselImage" alt="Second slide" width="100%" src={image2}/>
                         </div>
                         <Carousel.Caption className = "transparentBg" >
@@ -28,7 +28,7 @@ export const Home = () => (
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="img-gradient">
+                        <div className="img-gradient img-gradient-overlay">
                             <img className="d-block w-100 carouselImage" alt="Third slide" width="100%" src={image3}/>
                         </div>
                         <Carousel.Caption className="transparentBg">

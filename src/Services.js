@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col} from 'react-bootstrap';
 import './App.css';
+import image from './assets/civil.jpg';
 
 export default function Services() {
     return (
@@ -56,7 +57,7 @@ export default function Services() {
                             </Col>
                             <Col md lg>
                                 <div>
-                                    <img  id="imgVS1" src="https://cdn.pixabay.com/photo/2015/12/07/10/55/electric-1080584_960_720.jpg" alt="civil work"/>
+                                    <img  id="imgVS1" src={image} alt="civil work"/>
                                 </div>
                             </Col>
                         </Row>
