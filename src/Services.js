@@ -6,7 +6,6 @@ import image from './assets/civil.jpg';
 export default function Services() {
     return (
             <div>
-
                 <div id="aboutFD">
                     <Container fluid>
                         <Row>
@@ -245,7 +244,6 @@ export default function Services() {
                         </Row>
                     </Container>
                 </div>
-
             </div>
     );
 }
