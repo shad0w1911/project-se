@@ -380,3 +380,11 @@ button:hover {
         margin-right: 0px;
     }
 }
+
+@media (max-width: 380px) {
+    #footerNav {
+        position: static;
+        margin-right: 30px;
+        align-content: center;
+    }
+}

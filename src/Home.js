@@ -4,6 +4,7 @@ import { Row, Col, Container } from "react-bootstrap";
 import image1 from './assets/home/electrical.jpg';
 import image2 from './assets/home/02.jpg';
 import image3 from './assets/home/plumbing.jpg';
+import home from './assets/home/home.jpg';
 
 export const Home = () => (
         <div>
@@ -70,7 +71,7 @@ export const Home = () => (
                         </div>
                     </Container>
                     <div className="img-gradient" >
-                        <img src="https://wallpaperplay.com/walls/full/3/a/e/77868.jpg" alt="office" height="700px" className="img-fluid"/>
+                        <img src={home} alt="office" height="700px" className="img-fluid"/>
                     </div>
                 </Container>
             </div>

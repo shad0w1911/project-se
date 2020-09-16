@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col, Container } from "react-bootstrap";
+import office from './assets/about/office.jpg'
 
 export const About = () => (
     <div>
@@ -19,7 +20,7 @@ export const About = () => (
             </div>
             <br/>
             <div className="img-gradient">
-                <img src="https://wallpaperplay.com/walls/full/3/a/e/77868.jpg" alt="#img" height="700px" className="img-fluid"/>
+                <img src={office} alt="#img" height="700px" width="1366px" className="img-fluid"/>
             </div>
             <Container id="aboutCont">
                 <div>
