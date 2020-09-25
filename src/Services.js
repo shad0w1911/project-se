@@ -1,7 +1,12 @@
 import React,{ useRef } from 'react';
 import { Container, Row, Col} from 'react-bootstrap';
 import './App.css';
-import image from './assets/civil.jpg';
+import civil from './assets/civil.jpg';
+import electrical from './assets/electrical.jpg';
+import fireFighting from './assets/fireFighting.jpg';
+import mechanical from './assets/mechanical.jpg';
+import plumbing from './assets/plumbing.jpg';
+import medicalGases from './assets/medicalGases.jpg';
 
 export default function Services() {
 
@@ -9,7 +14,7 @@ export default function Services() {
     const electricalWork = useRef();
     const plumbingWork = useRef();
     const mechanicalWork = useRef();
-    const fireFighting = useRef();
+    const fireFightingWork = useRef();
     const medicalGasesWork = useRef();
 
     function civilOnClick() {
@@ -83,7 +88,7 @@ export default function Services() {
                             </Col>
                             <Col md lg>
                                 <div>
-                                    <img  className="imgVS1" src={image} alt="civil work"/>
+                                    <img  className="imgVS1" src={civil} alt="civil work"/>
                                 </div>
                             </Col>
                         </Row>
@@ -95,7 +100,7 @@ export default function Services() {
                         <Row>
                             <Col md lg>
                                 <div>
-                                    <img  className="imgVS1" src="https://cdn.pixabay.com/photo/2015/12/07/10/55/electric-1080584_960_720.jpg" alt="electrical work"/>
+                                    <img  className="imgVS1" src={electrical} alt="electrical work"/>
                                 </div>
                             </Col>
                             <Col lg md>
@@ -159,7 +164,7 @@ export default function Services() {
                             </Col>
                             <Col lg md>
                                 <div>
-                                    <img  className="imgVS1" src="https://cdn.pixabay.com/photo/2017/08/23/10/22/tubing-2672187_960_720.jpg" alt="plumbing"/>
+                                    <img  className="imgVS1" src={plumbing} alt="plumbing"/>
                                 </div>
                             </Col>
                         </Row>
@@ -171,7 +176,7 @@ export default function Services() {
                         <Row>
                             <Col md lg>
                                 <div>
-                                    <img  className="imgVS1" src="https://cdn.pixabay.com/photo/2016/05/09/17/26/motor-1381995_960_720.jpg" alt="Mechanical"/>
+                                    <img  className="imgVS1" src={mechanical} alt="Mechanical"/>
                                 </div>
                             </Col>
                             <Col lg md>
@@ -204,7 +209,7 @@ export default function Services() {
                     </Container>
                 </div>
 
-                <div className="wrapperVS1" id="fireFighting" ref={fireFighting}>
+                <div className="wrapperVS1" id="fireFighting" ref={fireFightingWork}>
                     <Container>
                         <Row>
                             <Col md lg>
@@ -233,7 +238,7 @@ export default function Services() {
                             </Col>
                             <Col lg md>
                                 <div>
-                                    <img className="imgVS1" src="https://cdn.pixabay.com/photo/2016/09/12/22/38/fire-1665996_960_720.jpg" alt="firefighting"/>
+                                    <img className="imgVS1" src={fireFighting} alt="firefighting"/>
                                 </div>
                             </Col>
                         </Row>
@@ -245,7 +250,7 @@ export default function Services() {
                         <Row>
                             <Col md lg>
                                 <div>
-                                    <img  className="imgVS1" src="https://www.tri-techmedical.com/sites/default/files/ez-backfeed_ez-find.jpg" alt="medical gases"/>
+                                    <img  className="imgVS1" src={medicalGases} alt="medical gases"/>
                                 </div>
                             </Col>
                             <Col lg md>
