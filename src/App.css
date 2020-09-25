@@ -59,9 +59,9 @@ button:hover {
     height: 100%;
     display: inline-block;
     background: rgb(0, 0, 0);
-    background: -moz-linear-gradient( 180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4009978991596639) 10%, rgba(251, 120, 64, 0.2) 20%, rgba(251, 120, 64, 0.2) 80%, rgba(0, 0, 0, 0.4) 90%, rgba(0, 0, 0, 1) 100%);
-    background: -webkit-linear-gradient( 180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4009978991596639) 10%, rgba(251, 120, 64, 0.2) 20%, rgba(251, 120, 64, 0.2) 80%, rgba(0, 0, 0, 0.4) 90%, rgba(0, 0, 0, 1) 100%);
-    background: linear-gradient( 180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4009978991596639) 10%, rgba(251, 120, 64, 0.2) 20%, rgba(251, 120, 64, 0.2) 80%, rgba(0, 0, 0, 0.4) 90%, rgba(0, 0, 0, 1) 100%);
+    background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4009978991596639) 10%, rgba(251, 120, 64, 0.2) 20%, rgba(251, 120, 64, 0.2) 80%, rgba(0, 0, 0, 0.4) 90%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4009978991596639) 10%, rgba(251, 120, 64, 0.2) 20%, rgba(251, 120, 64, 0.2) 80%, rgba(0, 0, 0, 0.4) 90%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.4009978991596639) 10%, rgba(251, 120, 64, 0.2) 20%, rgba(251, 120, 64, 0.2) 80%, rgba(0, 0, 0, 0.4) 90%, rgba(0, 0, 0, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
 }
 
@@ -71,17 +71,17 @@ button:hover {
 
 .img-gradient-overlay {
     background: rgb(0, 0, 0);
-    background: -moz-linear-gradient( 180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.2049194677871149) 10%, rgba(0, 0, 0, 0.5466561624649859) 90%, rgba(0, 0, 0, 1) 100%);
-    background: -webkit-linear-gradient( 180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.2049194677871149) 10%, rgba(0, 0, 0, 0.5466561624649859) 90%, rgba(0, 0, 0, 1) 100%);
-    background: linear-gradient( 180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.2049194677871149) 10%, rgba(0, 0, 0, 0.5466561624649859) 90%, rgba(0, 0, 0, 1) 100%);
+    background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.2049194677871149) 10%, rgba(0, 0, 0, 0.5466561624649859) 90%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.2049194677871149) 10%, rgba(0, 0, 0, 0.5466561624649859) 90%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.2049194677871149) 10%, rgba(0, 0, 0, 0.5466561624649859) 90%, rgba(0, 0, 0, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
 }
 
-#wrapperVS1 {
+.wrapperVS1 {
     height: 600px;
 }
 
-#projectVS1 {
+.projectVS1 {
     margin-left: 100px auto;
     display: flex;
     justify-content: center;
@@ -89,17 +89,17 @@ button:hover {
     transform: translate(0, 100px);
 }
 
-#projectVS1 .container #textVS1 {
+.projectVS1 .container #textVS1 {
     color: #fff;
 }
 
-#projectVS1 .container #testVS1:hover {
+.projectVS1 .container #testVS1:hover {
     cursor: pointer;
     color: #fb7820;
     transition-duration: 0.1s;
 }
 
-#imgVS1 {
+.imgVS1 {
     height: 500px;
     width: 100%;
 }
@@ -228,6 +228,18 @@ button:hover {
     margin-left: 180px;
 }
 
+.servicesButton {
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+
+.servicesButton:hover {
+    border: none;
+    background-color: #000;
+    color: #fb7820;
+}
+
 #servicesP2 p {
     font-size: 20px;
     font-weight: 400;
@@ -302,16 +314,16 @@ button:hover {
     #projectRow {
         margin-bottom: 50px;
     }
-    #wrapperVS1 {
+    .wrapperVS1 {
         height: auto;
         margin-bottom: 50px;
     }
-    #projectVS1 {
+    .projectVS1 {
         margin: auto;
         -ms-transform: translate(0, 0);
         transform: translate(0, 0);
     }
-    #imgVS1 {
+    .imgVS1 {
         height: 300px;
         width: 100%;
     }

@@ -2,6 +2,8 @@ import React from 'react';
 import { Row, Col, Container } from "react-bootstrap";
 import './App.css';
 import dhaOasis from './assets/dhaOasis.jpg';
+import nationalStadium from './assets/nationalStadium.jpg';
+import crescentSteel from './assets/cresentSteel.jpg';
 
 export const Projects = () => (
     <div style={{height:"100%"}}>
@@ -39,7 +41,7 @@ export const Projects = () => (
                     <Row>
                         <Col lg md>
                             <div style={{width:"350px"}}>
-                                <img alt="nationalStadium" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nat_Std01.JPG/1200px-Nat_Std01.JPG" className="image"/>
+                                <img alt="nationalStadium" src={nationalStadium} className="image"/>
                                 <div style={{backgroundColor: "#141414"}}>
                                     <h3 style={{textAlign:"center"}}>National Stadium</h3>
                                     <h5 style={{textAlign:"center"}}>Our Services</h5>
@@ -53,7 +55,7 @@ export const Projects = () => (
                             </div>
                         </Col>
                         <Col lg md>
-                            <img alt="crescentSteel" src="https://crescent.com.pk/wp-content/gallery/steel_1/184_8496.jpg" className="image" />
+                            <img alt="crescentSteel" src={crescentSteel} className="image" />
                             <div style={{backgroundColor: "#141414"}}>
                                 <h3 style={{textAlign:"center"}}>Crescent Steel Hostel</h3>
                                 <h5 style={{textAlign:"center"}}>Our Services</h5>
@@ -64,7 +66,7 @@ export const Projects = () => (
                                     <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> External Rain Water <br/>
                                 </p>
                             </div>
-                            </Col>
+                        </Col>
                         <Col lg md>
                             <img alt="nationalStadium" src={dhaOasis} className="image" />
                             <div style={{backgroundColor: "#141414"}}>

@@ -1,9 +1,36 @@
-import React from 'react';
+import React,{ useRef } from 'react';
 import { Container, Row, Col} from 'react-bootstrap';
 import './App.css';
 import image from './assets/civil.jpg';
 
 export default function Services() {
+
+    const civilWork = useRef();
+    const electricalWork = useRef();
+    const plumbingWork = useRef();
+    const mechanicalWork = useRef();
+    const fireFighting = useRef();
+    const medicalGasesWork = useRef();
+
+    function civilOnClick() {
+        civilWork.current.scrollIntoView({ behavior: 'smooth' })
+    }
+    function electricalOnClick() {
+        electricalWork.current.scrollIntoView({ behavior: 'smooth' })
+    }
+    function plumbingOnClick() {
+        plumbingWork.current.scrollIntoView({ behavior: 'smooth' })
+    }
+    function mechanicalOnClick() {
+        mechanicalWork.current.scrollIntoView({ behavior: 'smooth' })
+    }
+    function fireFightingOnClick() {
+        fireFighting.current.scrollIntoView({ behavior: 'smooth' })
+    }
+    function medicalGasesOnClick() {
+        medicalGasesWork.current.scrollIntoView({ behavior: 'smooth' })
+    }
+
     return (
             <div>
                 <div id="aboutFD">
@@ -11,12 +38,12 @@ export default function Services() {
                         <Row>
                             <Col md lg id="servicesP">
                                 <h1 style={{textAlign:"center"}}>Services We Offer</h1>
-                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Civil Work</p>
-                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Work</p>
-                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing</p>
-                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Mechanical Work</p>
-                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire Fighting</p>
-                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Medical Gases Work</p>
+                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:'#fb7820'}}></i> <button className="servicesButton" onClick={civilOnClick}>Civil Work</button></p>
+                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:'#fb7820'}}></i> <button className="servicesButton" onClick={electricalOnClick}>Electrical Work</button></p>
+                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:'#fb7820'}}></i> <button className="servicesButton" onClick={plumbingOnClick}>Plumbing</button></p>
+                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:'#fb7820'}}></i> <button className="servicesButton" onClick={mechanicalOnClick}>Mechanical Work</button></p>
+                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:'#fb7820'}}></i> <button className="servicesButton" onClick={fireFightingOnClick}>Fire Fighting</button></p>
+                                <p><i class="fa fa-chevron-right" aria-hidden="true" style={{color:'#fb7820'}}></i> <button className="servicesButton" onClick={medicalGasesOnClick}>Medical Gases Work</button></p>
                             </Col>
                             <Col md lg id="servicesP2">
                                 <p>
@@ -28,11 +55,11 @@ export default function Services() {
                     </Container>
                 </div>
 
-                <div id="wrapperVS1">
+                <div className="wrapperVS1" id="civilWork" ref={civilWork}>
                     <Container>
                         <Row>
                             <Col lg md>
-                                <div id="projectVS1">
+                                <div className="projectVS1">
                                     <Container>
                                         <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>01 - Civil Work</p>
                                         <Row>
@@ -56,23 +83,23 @@ export default function Services() {
                             </Col>
                             <Col md lg>
                                 <div>
-                                    <img  id="imgVS1" src={image} alt="civil work"/>
+                                    <img  className="imgVS1" src={image} alt="civil work"/>
                                 </div>
                             </Col>
                         </Row>
                     </Container>
                 </div>
 
-                <div id="wrapperVS1">
+                <div className="wrapperVS1" id="electricalWork" ref={electricalWork}>
                     <Container>
                         <Row>
                             <Col md lg>
                                 <div>
-                                    <img  id="imgVS1" src="https://cdn.pixabay.com/photo/2015/12/07/10/55/electric-1080584_960_720.jpg" alt="electrical work"/>
+                                    <img  className="imgVS1" src="https://cdn.pixabay.com/photo/2015/12/07/10/55/electric-1080584_960_720.jpg" alt="electrical work"/>
                                 </div>
                             </Col>
                             <Col lg md>
-                                <div id="projectVS1">
+                                <div className="projectVS1">
                                     <Container>
                                         <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>02 - Electrical Work</p>
                                         <p style={{fontSize:"20px", fontWeight:"100"}}>
@@ -101,11 +128,11 @@ export default function Services() {
                     </Container>
                 </div>
 
-                <div id="wrapperVS1">
+                <div className="wrapperVS1" id="plumbingWork" ref={plumbingWork}>
                     <Container>
                         <Row>
                             <Col md lg>
-                                <div id="projectVS1">
+                                <div className="projectVS1">
                                     <Container>
                                         <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>03 - Plumbing</p>
                                         <p style={{fontSize:"20px", fontWeight:"100"}}>
@@ -132,23 +159,23 @@ export default function Services() {
                             </Col>
                             <Col lg md>
                                 <div>
-                                    <img  id="imgVS1" src="https://cdn.pixabay.com/photo/2017/08/23/10/22/tubing-2672187_960_720.jpg" alt="plumbing"/>
+                                    <img  className="imgVS1" src="https://cdn.pixabay.com/photo/2017/08/23/10/22/tubing-2672187_960_720.jpg" alt="plumbing"/>
                                 </div>
                             </Col>
                         </Row>
                     </Container>
                 </div>
 
-                <div id="wrapperVS1">
+                <div className="wrapperVS1" id="mechanicalWork" ref={mechanicalWork}>
                     <Container>
                         <Row>
                             <Col md lg>
                                 <div>
-                                    <img  id="imgVS1" src="https://cdn.pixabay.com/photo/2016/05/09/17/26/motor-1381995_960_720.jpg" alt="Mechanical"/>
+                                    <img  className="imgVS1" src="https://cdn.pixabay.com/photo/2016/05/09/17/26/motor-1381995_960_720.jpg" alt="Mechanical"/>
                                 </div>
                             </Col>
                             <Col lg md>
-                                <div id="projectVS1">
+                                <div className="projectVS1">
                                     <Container>
                                         <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>04 - Mechanical Solutions</p>
                                         <p style={{fontSize:"20px", fontWeight:"100"}}>
@@ -177,11 +204,11 @@ export default function Services() {
                     </Container>
                 </div>
 
-                <div id="wrapperVS1">
+                <div className="wrapperVS1" id="fireFighting" ref={fireFighting}>
                     <Container>
                         <Row>
                             <Col md lg>
-                                <div id="projectVS1">
+                                <div className="projectVS1">
                                     <Container>
                                         <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>05 - Fire Fighting</p>
                                         <p style={{fontSize:"20px", fontWeight:"100"}}>
@@ -206,23 +233,23 @@ export default function Services() {
                             </Col>
                             <Col lg md>
                                 <div>
-                                    <img  id="imgVS1" src="https://cdn.pixabay.com/photo/2016/09/12/22/38/fire-1665996_960_720.jpg" alt="firefighting"/>
+                                    <img className="imgVS1" src="https://cdn.pixabay.com/photo/2016/09/12/22/38/fire-1665996_960_720.jpg" alt="firefighting"/>
                                 </div>
                             </Col>
                         </Row>
                     </Container>
                 </div>
 
-                <div id="wrapperVS1">
+                <div className="wrapperVS1" id="medicalGasesWork" ref={medicalGasesWork}>
                     <Container>
                         <Row>
                             <Col md lg>
                                 <div>
-                                    <img  id="imgVS1" src="https://www.tri-techmedical.com/sites/default/files/ez-backfeed_ez-find.jpg" alt="medical gases"/>
+                                    <img  className="imgVS1" src="https://www.tri-techmedical.com/sites/default/files/ez-backfeed_ez-find.jpg" alt="medical gases"/>
                                 </div>
                             </Col>
                             <Col lg md>
-                                <div id="projectVS1">
+                                <div className="projectVS1">
                                     <Container>
                                         <p style={{fontSize:"25px", fontWeight:"250", color:"#fb7840"}}>06 - Medical Gases Work</p>
                                         <p style={{fontSize:"20px", fontWeight:"100"}}>
