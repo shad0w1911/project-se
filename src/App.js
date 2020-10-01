@@ -11,6 +11,7 @@ import { Partners } from "./Partners";
 import { Projects } from "./Projects";
 import { Footer } from "./components/Footer";
 import Services from "./Services";
+import Example from "./modal";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/Projects" component={Projects} />
           <Route path="/Partners" component={Partners} />
           <Route path="/Contact" component={Contact} />
+          <Route path="/Example" component={Example}/>
           <Route component={NoMatch} />
         </Switch>
       </Router>

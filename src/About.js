@@ -11,9 +11,9 @@ export const About = () => (
                         <h1 style={{textAlign:"center"}}>Sarwar Enterprises is a team of experts that strive for <span style={{color:"#fb7840"}}>perfection</span>.</h1>
                     </Col>
                     <Col lg md>
-                        <p style={{textAlign:"center", fontWeight:"100px"}}>
+                        <p style={{textAlign:"center", fontWeight:"100px", fontSize: "18px"}}>
                             Sarwar Enterprises has a very efficient & professional setup with dedicated units of demolition, civil & plumbing works, wooden & metal works, electrical, lain & A/Cs works,
-                            aluminum, fire-fighting, medical-gases glass and all other related general works.
+                            aluminium, fire-fighting and all other related general works.
                         </p>
                     </Col>
                 </Row>
@@ -30,7 +30,7 @@ export const About = () => (
                         </Col>
                         <Col lg md>
                             <p style={{fontSize:"20px", fontWeight:"300"}}>
-                                Established in mid nineties, as a design consultancy firm, the company is now grown into a fully integrated high quality manufacturer of interior & exterior projects from Turkey.
+                                We are a team of experts of all the related parts and phases of this trade, such as civil, mechanical, electrical, plumbing, fire-fighting, roads, designing, fabrication, construction and also general order supplies.
                             </p>
                         </Col>
                     </Row>

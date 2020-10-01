@@ -47,9 +47,9 @@ export const Home = () => (
                                 <h1 style={{textAlign: "center"}}>Sarwar Enterprises is a team of experts that strive for <span style={{color: "#fb7840"}}>perfection</span>.</h1>
                             </Col>
                             <Col lg md>
-                            <p style={{textAlign: "center", fontWeight: "100"}}>
+                            <p style={{textAlign: "center", fontWeight: "100", fontSize:"18px"}}>
                                 Sarwar Enterprises has a very efficient & professional setup with dedicated units of demolition, civil & plumbing works, wooden & metal works, electrical, lain & A/Cs works,
-                                aluminium, fire-fighting, medical-gases glass and all other related general works.
+                                aluminium, fire-fighting and all other related general works.
                             </p>
                             </Col>
                         </Row>
@@ -63,7 +63,7 @@ export const Home = () => (
                                 </Col>
                                 <Col lg md>
                                     <p style={{fontSize: "20px",fontWeight: "300"}}>
-                                        With a vast range of facilities, from the developments of basic concept to the high quality fabrication & construction work, electrical mechanical and plumbing, fire-fighting, medical-gases work.
+                                        With a vast range of facilities, from the developments of basic concept to the high quality fabrication & construction work, civil, electrical, mechanical and plumbing, fire-fighting.
                                         This firm is posied to fulfill any project all over the Pakistan.
                                     </p>
                                 </Col>

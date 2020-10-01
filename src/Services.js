@@ -8,7 +8,7 @@ import mechanical from './assets/mechanical.jpg';
 import plumbing from './assets/plumbing.jpg';
 import medicalGases from './assets/medicalGases.jpg';
 
-export default function Services() {
+export default function Example() {
 
     const civilWork = useRef();
     const electricalWork = useRef();
@@ -35,7 +35,6 @@ export default function Services() {
     function medicalGasesOnClick() {
         medicalGasesWork.current.scrollIntoView({ behavior: 'smooth' })
     }
-
     return (
             <div>
                 <div id="aboutFD">

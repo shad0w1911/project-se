@@ -1,9 +1,11 @@
 import React from 'react';
 import { Row, Col, Container } from "react-bootstrap";
 import './App.css';
-import dhaOasis from './assets/dhaOasis.jpg';
-import nationalStadium from './assets/nationalStadium.jpg';
-import crescentSteel from './assets/cresentSteel.jpg';
+// import dhaOasis from './assets/dhaOasis.jpg';
+// import nationalStadium from './assets/nationalStadium.jpg';
+// import crescentSteel from './assets/cresentSteel.jpg';
+// import kict from './assets/kict.jpg';
+import Example from './modal';
 
 export const Projects = () => (
     <div style={{height:"100%"}}>
@@ -38,45 +40,41 @@ export const Projects = () => (
                 </div>
                 
                 <section>
-                    <Row>
+                
+                    {/* <Row>
                         <Col lg md>
-                            <div style={{width:"350px"}}>
-                                <img alt="nationalStadium" src={nationalStadium} className="image"/>
-                                <div style={{backgroundColor: "#141414"}}>
-                                    <h3 style={{textAlign:"center"}}>National Stadium</h3>
-                                    <h5 style={{textAlign:"center"}}>Our Services</h5>
-                                    <p style={{marginLeft:"10px"}}>
-                                        <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing & Sanitary Work <br/>
-                                        <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire-fighting System <br/>
-                                        <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Booster Centrifugal Pump <br/>
-                                        <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> External Rain Water <br/>
-                                    </p>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col lg md>
-                            <img alt="crescentSteel" src={crescentSteel} className="image" />
-                            <div style={{backgroundColor: "#141414"}}>
-                                <h3 style={{textAlign:"center"}}>Crescent Steel Hostel</h3>
-                                <h5 style={{textAlign:"center"}}>Our Services</h5>
+                            <img alt="nationalStadium" src={nationalStadium} className="image"/>
+                            <div class="projectHolder">
+                                <h4 style={{textAlign:"center"}}>National Stadium</h4>
+                                <h6 style={{textAlign:"center"}}>Our Services</h6>
                                 <p style={{marginLeft:"10px"}}>
-                                    <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing & Sanitary Work <br/>
-                                    <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire-fighting System <br/>
-                                    <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Booster Centrifugal Pump <br/>
-                                    <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> External Rain Water <br/>
+                                    <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Electrical Wiring & Transformer Installation <br/>
+                                    <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Cable Laying <br/>
+                                    <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> General Wiring <br/>
                                 </p>
                             </div>
                         </Col>
                         <Col lg md>
-                            <img alt="nationalStadium" src={dhaOasis} className="image" />
-                            <div style={{backgroundColor: "#141414"}}>
-                                <h3 style={{textAlign:"center"}}>DHA Oasis Karachi</h3>
-                                <h5 style={{textAlign:"center"}}>Our Services</h5>
+                            <img alt="crescentSteel" src={crescentSteel} className="image" />
+                            <div class="projectHolder">
+                                <h4 style={{textAlign:"center"}}>Crescent Steel Hostel</h4>
+                                <h6 style={{textAlign:"center"}}>Our Services</h6>
                                 <p style={{marginLeft:"10px"}}>
                                     <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing & Sanitary Work <br/>
                                     <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire-fighting System <br/>
                                     <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Booster Centrifugal Pump <br/>
-                                    <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> External Rain Water System <br/>
+                                </p>
+                            </div>
+                        </Col>
+                        <Col lg md>
+                            <img alt="nationalStadium" src={kict} className="image" />
+                            <div class="projectHolder">
+                                <h4 style={{textAlign:"center"}}>KICT Marine Building</h4>
+                                <h6 style={{textAlign:"center"}}>Our Services</h6>
+                                <p style={{marginLeft:"10px"}}>
+                                    <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Plumbing & Sanitary Work <br/>
+                                    <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Fire-fighting System <br/>
+                                    <i class="fa fa-chevron-right" aria-hidden="true" style={{color:"#fb7820"}}></i> Booster Centrifugal Pump <br/>
                                 </p>
                             </div>
                         </Col>
@@ -84,7 +82,9 @@ export const Projects = () => (
                     <br/>
                     <p><hr style={{color:"#fb7820", border:"1px solid #fb7820"}}/></p>
                     <br/>
+                    */}
                 </section>
             </Container>
+            <Example />
     </div>
 )
