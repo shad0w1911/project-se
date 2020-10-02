@@ -19,7 +19,7 @@ export const About = () => (
                 </Row>
             </div>
             <br/>
-            <div className="img-gradient">
+            <div className="c-img-gradient">
                 <img src={office} alt="#img" height="700px" width="1366px" className="img-fluid"/>
             </div>
             <Container id="aboutCont">
